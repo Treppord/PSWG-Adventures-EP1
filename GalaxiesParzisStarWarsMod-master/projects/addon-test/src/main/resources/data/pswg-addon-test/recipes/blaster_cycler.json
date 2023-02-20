@@ -1,0 +1,17 @@
+{
+  "type": "pswg-addon-test:blaster_table",
+  "ingredients": [
+    {
+      "item": "pswg-addon-test:tatooine_holodrive"
+    },
+    {
+      "item": "pswg:durasteel_rod"
+    },
+    {
+      "item": "pswg:desh_coil"
+    }
+  ],
+  "output": {
+    "item": "pswg:blaster_cycler"
+  }
+}

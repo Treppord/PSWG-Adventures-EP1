@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "YZY",
+    "YAY"
+  ],
+  "key": {
+    "X": {
+      "item": "pswg:ionite_ingot"
+    },
+    "Y": {
+      "item": "pswg:durasteel_rod"
+    },
+    "Z": {
+      "item": "pswg:durasteel_block"
+    },
+    "A": {
+      "item": "minecraft:electric_motor"
+    }
+  },
+  "result": {
+    "item": "pswg-addon-test:fabricator"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "pswg-addon-test:market",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_block"
+    }
+  ],
+  "output": {
+    "item": "pswg-addon-test:gold_credit"
+  }
+}

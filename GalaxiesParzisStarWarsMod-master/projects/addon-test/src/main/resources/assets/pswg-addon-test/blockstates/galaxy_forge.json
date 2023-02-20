@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "pswg-addon-test:block/galaxy_forge" },
+    "facing=east": { "model": "pswg-addon-test:block/galaxy_forge", "y": 90 },
+    "facing=south": { "model": "pswg-addon-test:block/galaxy_forge", "y": 180 },
+    "facing=west": { "model": "pswg-addon-test:block/galaxy_forge", "y": 270 }
+  }
+}

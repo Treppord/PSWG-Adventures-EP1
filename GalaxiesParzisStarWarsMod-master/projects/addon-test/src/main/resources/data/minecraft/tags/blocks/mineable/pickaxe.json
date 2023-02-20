@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "pswg-addon-test:scrap_metal",
+    "pswg-addon-test:armor_station",
+    "pswg-addon-test:market_station"
+  ]
+}

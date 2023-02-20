@@ -1,0 +1,16 @@
+{
+  "type": "pswg-addon-test:smithing_anvil",
+  "crafting_tool": {
+    "item": "pswg-addon-test:overworld_holodrive"
+  },
+  "material": {
+    "item": "minecraft:leather_helmet"
+  },
+  "material_cost": 1,
+  "minimum_crafting_tier": -1,
+  "result": {
+    "item": "pswg:rebel_forest_helmet"
+  }
+}
+
+

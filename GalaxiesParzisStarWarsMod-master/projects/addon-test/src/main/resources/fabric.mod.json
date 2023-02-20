@@ -1,0 +1,45 @@
+{
+	"schemaVersion": 1,
+	"id": "pswg-addon-test",
+	"version": "0.0.1",
+	"name": "PSWG Addon: Adventures Ep 1",
+	"description": "Now this is podracing.",
+	"authors": [
+		"Trep"
+	],
+	"contact": {
+		"homepage": "https://pswg.dev/",
+		"issues": "https://github.com/Parzivail-Modding-Team/GalaxiesParzisStarWarsMod/issues",
+		"sources": "https://github.com/Parzivail-Modding-Team/GalaxiesParzisStarWarsMod"
+	},
+	"license": "LGPL-3.0",
+	"icon": "assets/pswg/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"pswg-addon": [
+			"com.example.addon.TestAddon"
+		],
+		"pswg-client-addon": [
+			"com.example.addon.TestAddonClient"
+		],
+		"fabric-datagen": [
+			"com.example.addon.datagen.TestDataGeneration"
+		],
+		"rei_client": [
+			"com.example.addon.compat.TestAddonPlugin"
+		]
+	},
+	"depends": {
+		"fabric-api": "*",
+		"fabricloader": ">=0.14.8",
+		"minecraft": "1.19.3",
+		"pswg": ">=0.0.92"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.gg/QAbPG8JJaj"
+			}
+		}
+	}
+}

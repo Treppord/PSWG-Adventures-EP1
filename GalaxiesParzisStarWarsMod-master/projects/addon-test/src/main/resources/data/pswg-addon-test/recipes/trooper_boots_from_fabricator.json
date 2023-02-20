@@ -1,0 +1,16 @@
+{
+  "type": "pswg-addon-test:smithing_anvil",
+  "crafting_tool": {
+    "item": "pswg-addon-test:trooper_holodrive"
+  },
+  "material": {
+    "item": "pswg:plasteel_ingot"
+  },
+  "material_cost": 4,
+  "minimum_crafting_tier": -1,
+  "result": {
+    "item": "pswg:stormtrooper_boots"
+  }
+}
+
+

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "YZY",
+    "YAY"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_block"
+    },
+    "Y": {
+      "item": "minecraft:deepslate"
+    },
+    "Z": {
+      "item": "pswg:desh_block"
+    },
+    "A": {
+      "item": "minecraft:electric_motor"
+    }
+  },
+  "result": {
+    "item": "pswg-addon-test:merchant_station"
+  }
+}

@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"pswg-addon-test:force_push",
+		"pswg-addon-test:force_sprint"
+	],
+	"icon": "pswg:lightsaber",
+	"order": 10,
+	"impact": 0,
+	"name": "Jedi",
+	"description": "Join the order of knights."
+}

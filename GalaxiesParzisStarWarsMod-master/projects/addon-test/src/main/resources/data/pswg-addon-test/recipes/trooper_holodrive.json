@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pswg-addon-test:holodrive"
+    },
+    {
+      "item": "pswg-addon-test:emblem"
+    }
+  ],
+  "result": {
+    "item": "pswg-addon-test:trooper_holodrive"
+  }
+}

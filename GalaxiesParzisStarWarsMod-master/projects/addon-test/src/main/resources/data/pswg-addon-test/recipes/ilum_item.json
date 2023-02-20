@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pswg-addon-test:warpdrive"
+    },
+    {
+      "item": "pswg-addon-test:ilum_holodrive"
+    }
+  ],
+  "result": {
+    "item": "pswg-addon-test:ilum_item"
+  }
+}

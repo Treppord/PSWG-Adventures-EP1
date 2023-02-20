@@ -1,0 +1,16 @@
+{
+  "type": "pswg-addon-test:smithing_anvil",
+  "crafting_tool": {
+    "item": "pswg-addon-test:nevarro_holodrive"
+  },
+  "material": {
+    "item": "pswg-addon-test:beskar_alloy_chestplate"
+  },
+  "material_cost": 1,
+  "minimum_crafting_tier": -1,
+  "result": {
+    "item": "pswg-addon-test:beskar_alloy_alternative_chestplate"
+  }
+}
+
+

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "YYY",
+    "Y Y",
+    "Y Y"
+  ],
+  "key": {
+    "Y": {
+      "item": "pswg-addon-test:beskar_alloy"
+    }
+  },
+  "result": {
+    "item": "pswg-addon-test:beskar_alloy_leggings"
+  }
+}

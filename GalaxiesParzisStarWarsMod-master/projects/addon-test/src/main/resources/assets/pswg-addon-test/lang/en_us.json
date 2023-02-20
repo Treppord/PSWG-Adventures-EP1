@@ -1,0 +1,92 @@
+{
+	"item.pswg-addon-test.wampa_hide": "Wampa Hide",
+	"item.pswg-addon-test.beskar_alloy": "Beskar Alloy",
+	"item.pswg-addon-test.beskar_scraps": "Beskar Scraps",
+	"item.pswg-addon-test.beskar_lump": "Beskar Lump",
+
+	"item.pswg-addon-test.holodrive": "Holodrive",
+	"item.pswg-addon-test.trooper_holodrive": "Holodrive",
+	"item.pswg-addon-test.imperial_holodrive": "Holodrive",
+
+
+	"item.pswg-addon-test.overworld_holodrive": "Holodrive",
+	"item.pswg-addon-test.tatooine_holodrive": "Holodrive",
+	"item.pswg-addon-test.hoth_holodrive": "Holodrive",
+	"item.pswg-addon-test.dagobah_holodrive": "Holodrive",
+	"item.pswg-addon-test.ilum_holodrive": "Holodrive",
+	"item.pswg-addon-test.nevarro_holodrive": "Holodrive",
+
+	"item.pswg-addon-test.spawn_clone": "Clone Spawn Egg",
+
+	"item.pswg-addon-test.bronze_credit": "Bronze Credit",
+	"item.pswg-addon-test.silver_credit": "Silver Credit",
+	"item.pswg-addon-test.gold_credit": "Gold Credit",
+
+	"item.pswg-addon-test.tatooine_item": "Warpdrive",
+	"item.pswg-addon-test.overworld_item": "Warpdrive",
+	"item.pswg-addon-test.dagobah_item": "Warpdrive",
+	"item.pswg-addon-test.hoth_item": "Warpdrive",
+	"item.pswg-addon-test.ilum_item": "Warpdrive",
+	"item.pswg-addon-test.nevarro_item": "Warpdrive",
+	"item.pswg-addon-test.warpdrive": "Warpdrive",
+
+	"item.pswg-addon-test.emblem": "Emblem",
+	"item.pswg-addon-test.fett_emblem": "Fett Emblem",
+	"item.pswg-addon-test.death_watch_emblem": "Death Watch Emblem",
+	"item.pswg-addon-test.super_commando_emblem": "Super Commando Emblem",
+
+	"block.pswg-addon-test.galaxy_forge": "Galaxy Forge",
+	"block.pswg-addon-test.scrap_metal": "Scrap Metal Block",
+	"block.pswg-addon-test.merchant_station": "Merchant Station",
+	"block.pswg-addon-test.blaster_table": "Blaster Table",
+	"block.pswg-addon-test.fabricator": "Fabricator",
+
+	"entity.minecraft.villager.armormaster": "Armor Master",
+	"entity.minecraft.villager.merchant": "Merchant",
+
+
+	"blaster.pswg-addon-test.dc17": "§oBlasTech§r DC-17",
+	"item.pswg-addon-test.beskar_alloy_boots": "Beskar Alloy Boots",
+	"item.pswg-addon-test.beskar_alloy_chestplate": "Beskar Alloy Chestplate",
+	"item.pswg-addon-test.beskar_alloy_helmet": "Beskar Alloy Helmet",
+	"item.pswg-addon-test.beskar_alloy_leggings": "Beskar Alloy Leggings",
+	"item.pswg-addon-test.beskar_alloy_alternative_boots": "Beskar Alloy Boots",
+	"item.pswg-addon-test.beskar_alloy_alternative_chestplate": "Beskar Alloy Chestplate",
+	"item.pswg-addon-test.beskar_alloy_alternative_helmet": "Beskar Alloy Helmet",
+	"item.pswg-addon-test.beskar_alloy_alternative_leggings": "Beskar Alloy Leggings",
+
+	"item.pswg-addon-test.mando_boots": "Mandalorian Boots",
+	"item.pswg-addon-test.mando_chestplate": "Mandalorian Chestplate",
+	"item.pswg-addon-test.mando_helmet": "Mandalorian Helmet",
+	"item.pswg-addon-test.mando_leggings": "Mandalorian Leggings",
+
+	"item.pswg-addon-test.vader_boots": "Vader Boots",
+	"item.pswg-addon-test.vader_chestplate": "Vader Chestplate",
+	"item.pswg-addon-test.vader_helmet": "Vader Helmet",
+	"item.pswg-addon-test.vader_leggings": "Vader Leggings",
+
+	"item.pswg-addon-test.redmando_boots": "Mandalorian Saxon Boots",
+	"item.pswg-addon-test.redmando_chestplate": "Mandalorian Saxon Chestplate",
+	"item.pswg-addon-test.redmando_helmet": "Mandalorian Saxon Helmet",
+	"item.pswg-addon-test.redmando_leggings": "Mandalorian Saxon Leggings",
+
+	"item.pswg-addon-test.bluemando_boots": "Mandalorian Fett Boots",
+	"item.pswg-addon-test.bluemando_chestplate": "Mandalorian Fett Chestplate",
+	"item.pswg-addon-test.bluemando_helmet": "Mandalorian Fett Helmet",
+	"item.pswg-addon-test.bluemando_leggings": "Mandalorian Fett Leggings",
+
+	"item.pswg-addon-test.cyanmando_boots": "Mandalorian Vizsla Boots",
+	"item.pswg-addon-test.cyanmando_chestplate": "Mandalorian Vizsla Chestplate",
+	"item.pswg-addon-test.cyanmando_helmet": "Mandalorian Vizsla Helmet",
+	"item.pswg-addon-test.cyanmando_leggings": "Mandalorian Vizsla Leggings",
+
+	"container.pswg-addon-test.fabricator": "Fabricator",
+	"rei.pswg-addon-test.fabricator": "Fabricator",
+
+
+	"power.pswg-addon-test.force_push.name": "Force Jump",
+	"power.pswg-addon-test.force_sprint.name": "Force Sprint",
+
+	"power.pswg-addon-test.force_push.description": "Use your primary key to leap into the air.",
+	"power.pswg-addon-test.force_sprint.description": "When sprinting, you can jump 1.5 blocks."
+}

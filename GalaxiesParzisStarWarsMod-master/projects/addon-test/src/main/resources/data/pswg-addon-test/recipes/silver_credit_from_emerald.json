@@ -1,0 +1,11 @@
+{
+  "type": "pswg-addon-test:market",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_block"
+    }
+  ],
+  "output": {
+    "item": "pswg-addon-test:silver_credit"
+  }
+}

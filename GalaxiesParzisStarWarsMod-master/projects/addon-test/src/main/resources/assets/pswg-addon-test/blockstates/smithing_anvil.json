@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "pswg-addon-test:block/smithing_anvil" },
+    "facing=east": { "model": "pswg-addon-test:block/smithing_anvil", "y": 90 },
+    "facing=south": { "model": "pswg-addon-test:block/smithing_anvil", "y": 180 },
+    "facing=west": { "model": "pswg-addon-test:block/smithing_anvil", "y": 270 }
+  }
+}

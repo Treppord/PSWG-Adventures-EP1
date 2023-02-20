@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "pswg-addon-test:block/fabricator" },
+    "facing=east": { "model": "pswg-addon-test:block/fabricator", "y": 90 },
+    "facing=south": { "model": "pswg-addon-test:block/fabricator", "y": 180 },
+    "facing=west": { "model": "pswg-addon-test:block/fabricator", "y": 270 }
+  }
+}

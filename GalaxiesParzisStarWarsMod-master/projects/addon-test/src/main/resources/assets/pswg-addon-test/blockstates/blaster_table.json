@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "pswg-addon-test:block/blaster_table" },
+    "facing=east": { "model": "pswg-addon-test:block/blaster_table", "y": 90 },
+    "facing=south": { "model": "pswg-addon-test:block/blaster_table", "y": 180 },
+    "facing=west": { "model": "pswg-addon-test:block/blaster_table", "y": 270 }
+  }
+}

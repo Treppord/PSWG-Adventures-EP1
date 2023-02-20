@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "pswg-addon-test:block/merchant_station" },
+    "facing=east": { "model": "pswg-addon-test:block/merchant_station", "y": 90 },
+    "facing=south": { "model": "pswg-addon-test:block/merchant_station", "y": 180 },
+    "facing=west": { "model": "pswg-addon-test:block/merchant_station", "y": 270 }
+  }
+}
