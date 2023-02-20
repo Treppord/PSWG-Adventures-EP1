@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XYX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:sandstone"
+    },
+    "Y": {
+      "item": "pswg-addon-test:holodrive"
+    }
+  },
+  "result": {
+    "item": "pswg-addon-test:tatooine_holodrive"
+  }
+}
