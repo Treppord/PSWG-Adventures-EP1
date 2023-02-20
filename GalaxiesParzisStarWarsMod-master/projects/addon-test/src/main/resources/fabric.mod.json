@@ -1,16 +1,16 @@
 {
 	"schemaVersion": 1,
 	"id": "pswg-addon-test",
-	"version": "0.0.1",
+	"version": "0.0.7",
 	"name": "PSWG Addon: Adventures Ep 1",
 	"description": "Now this is podracing.",
 	"authors": [
 		"Trep"
 	],
 	"contact": {
-		"homepage": "https://pswg.dev/",
-		"issues": "https://github.com/Parzivail-Modding-Team/GalaxiesParzisStarWarsMod/issues",
-		"sources": "https://github.com/Parzivail-Modding-Team/GalaxiesParzisStarWarsMod"
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/pswg-addon-episode-1",
+		"issues": "https://github.com/Treppord/PSWG-Adventures-EP1/issues",
+		"sources": "https://github.com/Treppord/PSWG-Adventures-EP1"
 	},
 	"license": "LGPL-3.0",
 	"icon": "assets/pswg/icon.png",
