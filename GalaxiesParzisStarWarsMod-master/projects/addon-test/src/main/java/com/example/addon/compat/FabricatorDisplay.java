@@ -1,6 +1,6 @@
 package com.example.addon.compat;
 
-import com.example.addon.recipe.SmithingAnvilRecipe;
+import com.example.addon.recipe.FabricatorRecipe;
 import me.shedaniel.rei.api.common.category.CategoryIdentifier;
 import me.shedaniel.rei.api.common.display.Display;
 import me.shedaniel.rei.api.common.entry.EntryIngredient;
@@ -10,12 +10,12 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class SmithingAnvilDisplay implements Display
+public class FabricatorDisplay implements Display
 {
     private final List<EntryIngredient> inputs;
     private final EntryIngredient output;
 
-    public SmithingAnvilDisplay(SmithingAnvilRecipe recipe)
+    public FabricatorDisplay(FabricatorRecipe recipe)
     {
         EntryIngredient hammerInput = EntryIngredients.ofIngredient(recipe.getIngredients().get(0));
 
@@ -40,6 +40,6 @@ public class SmithingAnvilDisplay implements Display
     @Override
     public CategoryIdentifier<?> getCategoryIdentifier()
     {
-        return TestAddonPlugin.SMITHING_ANVIL_CATEGORY;
+        return TestAddonPlugin.FABRICATOR_DISPLAY_CATEGORY_IDENTIFIER;
     }
 }

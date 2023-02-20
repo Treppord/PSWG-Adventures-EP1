@@ -1,7 +1,7 @@
 package com.example.addon.compat;
 
 import com.example.addon.TestBlocks;
-import com.example.addon.screen.SmithingAnvilScreen;
+import com.example.addon.screen.FabricatorScreen;
 import me.shedaniel.math.Point;
 import me.shedaniel.math.Rectangle;
 import me.shedaniel.rei.api.client.gui.Renderer;
@@ -18,7 +18,7 @@ import net.minecraft.text.Text;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SmithingAnvilCategory implements DisplayCategory<SmithingAnvilDisplay> {
+public class FabricatorCategory implements DisplayCategory<FabricatorDisplay> {
     public static final Text TITLE = Text.translatable("rei.pswg-addon-test.fabricator");
     public static final EntryStack<ItemStack> ICON = EntryStacks.of(TestBlocks.SMITHING_ANVIL);
 
@@ -33,19 +33,19 @@ public class SmithingAnvilCategory implements DisplayCategory<SmithingAnvilDispl
     }
 
     @Override
-    public CategoryIdentifier<? extends SmithingAnvilDisplay> getCategoryIdentifier() {
-        return TestAddonPlugin.SMITHING_ANVIL_CATEGORY;
+    public CategoryIdentifier<? extends FabricatorDisplay> getCategoryIdentifier() {
+        return TestAddonPlugin.FABRICATOR_DISPLAY_CATEGORY_IDENTIFIER;
     }
 
     @Override
-    public List<Widget> setupDisplay(SmithingAnvilDisplay display, Rectangle bounds) {
+    public List<Widget> setupDisplay(FabricatorDisplay display, Rectangle bounds) {
         List<Widget> widgets = new ArrayList<>();
 
         Point startPoint = new Point(bounds.getCenterX() - 20, bounds.getCenterY() - 26);
         Point outputPoint = new Point(bounds.getCenterX() + 37, bounds.getCenterY());
 
         widgets.add(Widgets.createRecipeBase(bounds));
-        widgets.add(Widgets.createTexturedWidget(SmithingAnvilScreen.TEXTURE, startPoint.x, startPoint.y + 16, 20, 32, 16, 20, 16, 20, 256, 256));
+        widgets.add(Widgets.createTexturedWidget(FabricatorScreen.TEXTURE, startPoint.x, startPoint.y + 16, 20, 32, 16, 20, 16, 20, 256, 256));
         widgets.add(Widgets.createArrow(new Point(bounds.getCenterX(), bounds.getCenterY())));
 
         List<EntryIngredient> inputs = display.getInputEntries();

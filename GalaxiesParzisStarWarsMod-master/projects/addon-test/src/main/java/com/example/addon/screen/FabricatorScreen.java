@@ -1,7 +1,7 @@
 package com.example.addon.screen;
 
 import com.example.addon.TestAddon;
-import com.example.addon.recipe.SmithingAnvilRecipe;
+import com.example.addon.recipe.FabricatorRecipe;
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.screen.ingame.HandledScreen;
@@ -18,7 +18,7 @@ import net.minecraft.util.math.MathHelper;
 
 import java.util.List;
 
-public class SmithingAnvilScreen extends HandledScreen<SmithingAnvilScreenHandler>
+public class FabricatorScreen extends HandledScreen<FabricatorScreenHandler>
 {
 
 	/*
@@ -46,7 +46,7 @@ public class SmithingAnvilScreen extends HandledScreen<SmithingAnvilScreenHandle
     private int scrollOffset = 0;
     private boolean canCraft = false;
 
-    public SmithingAnvilScreen(SmithingAnvilScreenHandler handler, PlayerInventory inventory, Text title)
+    public FabricatorScreen(FabricatorScreenHandler handler, PlayerInventory inventory, Text title)
     {
         super(handler, inventory, title);
         handler.setContentsChangedListener(this::onInventoryChange);
@@ -93,7 +93,7 @@ public class SmithingAnvilScreen extends HandledScreen<SmithingAnvilScreenHandle
             int i = this.x + RECIPE_LIST_OFFSET_X;
             int j = this.y + RECIPE_LIST_OFFSET_Y;
             int k = this.scrollOffset + RECIPE_LIST_ROWS;
-            List<SmithingAnvilRecipe> list = this.handler.getAvailableRecipes();
+            List<FabricatorRecipe> list = this.handler.getAvailableRecipes();
             for(int l = this.scrollOffset; l < k && l < this.handler.getAvailableRecipeCount(); l++)
             {
                 int m = l - this.scrollOffset;
@@ -157,7 +157,7 @@ public class SmithingAnvilScreen extends HandledScreen<SmithingAnvilScreenHandle
 
     private void renderRecipeIcons(int x, int y, int indexOfLastVisibleRecipe)
     {
-        List<SmithingAnvilRecipe> list = this.handler.getAvailableRecipes();
+        List<FabricatorRecipe> list = this.handler.getAvailableRecipes();
 
         for(int i = this.scrollOffset; i < indexOfLastVisibleRecipe && i < this.handler.getAvailableRecipeCount(); i++)
         {

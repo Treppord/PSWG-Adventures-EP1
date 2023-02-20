@@ -8,8 +8,6 @@ import com.example.addon.entity.TestEntities;
 import com.example.addon.screen.*;
 import com.parzivail.pswg.api.PswgClientAddon;
 import com.parzivail.pswg.client.render.armor.ArmorRenderer;
-import com.parzivail.pswg.client.render.entity.ship.T65BXwingRenderer;
-import com.parzivail.pswg.container.SwgEntities;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.fabricmc.fabric.api.client.screenhandler.v1.ScreenRegistry;
@@ -127,7 +125,7 @@ public class TestAddonClient implements PswgClientAddon
 		ScreenRegistry.register(ModScreenHandlers.MARKET_STATION_SCREEN_HANDLER, MarketScreen::new);
 		ScreenRegistry.register(ModScreenHandlers.BLASTER_TABLE_SCREEN_HANDLER, BlasterTableScreen::new);
 
-		ScreenRegistry.register(ModScreenHandlers.SMITHING_ANVIL_SCREEN_HANDLER_TYPE, SmithingAnvilScreen::new);
+		ScreenRegistry.register(ModScreenHandlers.SMITHING_ANVIL_SCREEN_HANDLER_TYPE, FabricatorScreen::new);
 
 		EntityRendererRegistry.register(TestEntities.Clones.Clone, CloneEntityRenderer::new);
 	}

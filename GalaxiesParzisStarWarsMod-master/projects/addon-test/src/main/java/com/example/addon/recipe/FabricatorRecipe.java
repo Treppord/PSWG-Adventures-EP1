@@ -14,7 +14,7 @@ import net.minecraft.util.collection.DefaultedList;
 import net.minecraft.world.World;
 
 
-public class SmithingAnvilRecipe implements Recipe<Inventory>
+public class FabricatorRecipe implements Recipe<Inventory>
 {
     protected final Ingredient addition;
     protected final Ingredient material;
@@ -23,7 +23,7 @@ public class SmithingAnvilRecipe implements Recipe<Inventory>
     protected final ItemStack output;
     protected final Identifier id;
 
-    public SmithingAnvilRecipe(Identifier id, Ingredient addition, Ingredient material, int materialCount, int minimumCraftingTier, ItemStack output)
+    public FabricatorRecipe(Identifier id, Ingredient addition, Ingredient material, int materialCount, int minimumCraftingTier, ItemStack output)
     {
         this.id = id;
         this.addition = addition;
@@ -130,7 +130,7 @@ public class SmithingAnvilRecipe implements Recipe<Inventory>
         return Type.INSTANCE;
     }
 
-    public static class Type implements RecipeType<SmithingAnvilRecipe>
+    public static class Type implements RecipeType<FabricatorRecipe>
     {
         private Type(){}
 
@@ -138,14 +138,14 @@ public class SmithingAnvilRecipe implements Recipe<Inventory>
         public static final Type INSTANCE = new Type();
     }
 
-    public static class Serializer implements RecipeSerializer<SmithingAnvilRecipe>
+    public static class Serializer implements RecipeSerializer<FabricatorRecipe>
     {
         protected Serializer(){}
 
         public static Serializer INSTANCE = new Serializer();
 
         @Override
-        public SmithingAnvilRecipe read(Identifier id, JsonObject json)
+        public FabricatorRecipe read(Identifier id, JsonObject json)
         {
             Ingredient hammer = Ingredient.fromJson(json.get("crafting_tool"));
             Ingredient material = Ingredient.fromJson(json.get("material"));
@@ -159,22 +159,22 @@ public class SmithingAnvilRecipe implements Recipe<Inventory>
 
             if(output.isEmpty()) throw new JsonSyntaxException("Result stack is empty");
 
-            return new SmithingAnvilRecipe(id, hammer, material, count, tier, output);
+            return new FabricatorRecipe(id, hammer, material, count, tier, output);
         }
 
         @Override
-        public SmithingAnvilRecipe read(Identifier id, PacketByteBuf buf)
+        public FabricatorRecipe read(Identifier id, PacketByteBuf buf)
         {
             Ingredient craftingTool = Ingredient.fromPacket(buf);
             Ingredient material = Ingredient.fromPacket(buf);
             final int count = buf.readInt();
             final int tier = buf.readInt();
             ItemStack output = buf.readItemStack();
-            return new SmithingAnvilRecipe(id, craftingTool, material, count, tier, output);
+            return new FabricatorRecipe(id, craftingTool, material, count, tier, output);
         }
 
         @Override
-        public void write(PacketByteBuf buf, SmithingAnvilRecipe recipe)
+        public void write(PacketByteBuf buf, FabricatorRecipe recipe)
         {
             recipe.addition.write(buf);
             recipe.material.write(buf);

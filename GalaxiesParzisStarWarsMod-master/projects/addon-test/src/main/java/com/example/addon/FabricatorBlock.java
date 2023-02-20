@@ -16,10 +16,10 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
-public class SmithingAnvilBlock extends BlockWithEntity implements BlockEntityProvider {
+public class FabricatorBlock extends BlockWithEntity implements BlockEntityProvider {
     public static final DirectionProperty FACING = Properties.HORIZONTAL_FACING;
 
-    public SmithingAnvilBlock(Settings settings) {
+    public FabricatorBlock(Settings settings) {
         super(settings);
     }
 
@@ -56,8 +56,8 @@ public class SmithingAnvilBlock extends BlockWithEntity implements BlockEntityPr
     public void onStateReplaced(BlockState state, World world, BlockPos pos, BlockState newState, boolean moved) {
         if (state.getBlock() != newState.getBlock()) {
             BlockEntity blockEntity = world.getBlockEntity(pos);
-            if (blockEntity instanceof SmithingAnvilBlockEntity) {
-                ItemScatterer.spawn(world, pos, (SmithingAnvilBlockEntity)blockEntity);
+            if (blockEntity instanceof FabricatorBlockEntity) {
+                ItemScatterer.spawn(world, pos, (FabricatorBlockEntity)blockEntity);
                 world.updateComparators(pos,this);
             }
             super.onStateReplaced(state, world, pos, newState, moved);
@@ -81,7 +81,7 @@ public class SmithingAnvilBlock extends BlockWithEntity implements BlockEntityPr
     @Nullable
     @Override
     public BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
-        return new SmithingAnvilBlockEntity(pos, state);
+        return new FabricatorBlockEntity(pos, state);
     }
 
 

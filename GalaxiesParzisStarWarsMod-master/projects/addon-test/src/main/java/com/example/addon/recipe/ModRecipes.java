@@ -8,7 +8,7 @@ import net.minecraft.util.Identifier;
 
 public class ModRecipes {
 
-    public static RecipeType<SmithingAnvilRecipe> SMITHING_ANVIL_RECIPE_TYPE;
+    public static RecipeType<FabricatorRecipe> SMITHING_ANVIL_RECIPE_TYPE;
     public static void registerRecipes() {
         Registry.register(Registries.RECIPE_SERIALIZER, new Identifier(TestAddon.MODID, ArmorStationRecipe.Serializer.ID),
                 ArmorStationRecipe.Serializer.INSTANCE);
@@ -26,8 +26,8 @@ public class ModRecipes {
         Registry.register(Registries.RECIPE_TYPE, new Identifier(TestAddon.MODID, BlasterTableRecipe.Type.ID),
                 BlasterTableRecipe.Type.INSTANCE);
 
-        SMITHING_ANVIL_RECIPE_TYPE = Registry.register(Registries.RECIPE_TYPE, SmithingAnvilRecipe.Type.ID, SmithingAnvilRecipe.Type.INSTANCE);
-        Registry.register(Registries.RECIPE_SERIALIZER, SmithingAnvilRecipe.Type.ID, SmithingAnvilRecipe.Serializer.INSTANCE);
+        SMITHING_ANVIL_RECIPE_TYPE = Registry.register(Registries.RECIPE_TYPE, FabricatorRecipe.Type.ID, FabricatorRecipe.Type.INSTANCE);
+        Registry.register(Registries.RECIPE_SERIALIZER, FabricatorRecipe.Type.ID, FabricatorRecipe.Serializer.INSTANCE);
 
 
 

@@ -1,9 +1,9 @@
 package com.example.addon.screen;
 
-import com.example.addon.SmithingAnvilBlockEntity;
+import com.example.addon.FabricatorBlockEntity;
 import com.example.addon.TestBlocks;
 import com.example.addon.TestTags;
-import com.example.addon.recipe.SmithingAnvilRecipe;
+import com.example.addon.recipe.FabricatorRecipe;
 import com.google.common.collect.Lists;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
@@ -23,13 +23,13 @@ import net.minecraft.world.World;
 import java.util.List;
 import java.util.Objects;
 
-public class SmithingAnvilScreenHandler extends ScreenHandler
+public class FabricatorScreenHandler extends ScreenHandler
 {
     private final ScreenHandlerContext context;
     private final Property selectedRecipe;
     private final World world;
 
-    private List<SmithingAnvilRecipe> availableRecipes;
+    private List<FabricatorRecipe> availableRecipes;
     private ItemStack hammerStack;
     private ItemStack materialStack;
 
@@ -42,12 +42,12 @@ public class SmithingAnvilScreenHandler extends ScreenHandler
     public final Inventory input;
     final CraftingResultInventory output;
 
-    public SmithingAnvilScreenHandler(int syncId, PlayerInventory playerInventory)
+    public FabricatorScreenHandler(int syncId, PlayerInventory playerInventory)
     {
         this(syncId, playerInventory, new SimpleInventory(2), ScreenHandlerContext.EMPTY);
     }
 
-    public SmithingAnvilScreenHandler(int syncId, PlayerInventory playerInventory, Inventory blockInventory, ScreenHandlerContext context)
+    public FabricatorScreenHandler(int syncId, PlayerInventory playerInventory, Inventory blockInventory, ScreenHandlerContext context)
     {
         super(ModScreenHandlers.SMITHING_ANVIL_SCREEN_HANDLER_TYPE, syncId);
 
@@ -67,19 +67,19 @@ public class SmithingAnvilScreenHandler extends ScreenHandler
 
         input.onOpen(playerInventory.player);
 
-        this.hammerSlot = this.addSlot(new Slot(SmithingAnvilScreenHandler.this.input, 0, 20, 15){
+        this.hammerSlot = this.addSlot(new Slot(FabricatorScreenHandler.this.input, 0, 20, 15){
             @Override
             public void markDirty()
             {
-                SmithingAnvilScreenHandler.this.onHammerSlotChanged(SmithingAnvilScreenHandler.this.input);
+                FabricatorScreenHandler.this.onHammerSlotChanged(FabricatorScreenHandler.this.input);
                 super.markDirty();
             }
         });
-        this.materialSlot = this.addSlot(new Slot(SmithingAnvilScreenHandler.this.input, 1, 20, 53){
+        this.materialSlot = this.addSlot(new Slot(FabricatorScreenHandler.this.input, 1, 20, 53){
             @Override
             public void markDirty()
             {
-                SmithingAnvilScreenHandler.this.onMaterialSlotChanged(SmithingAnvilScreenHandler.this.input);
+                FabricatorScreenHandler.this.onMaterialSlotChanged(FabricatorScreenHandler.this.input);
                 super.markDirty();
             }
         });
@@ -94,22 +94,22 @@ public class SmithingAnvilScreenHandler extends ScreenHandler
             public void onTakeItem(PlayerEntity player, ItemStack stack)
             {
                 stack.onCraft(player.world, player, stack.getCount());
-                SmithingAnvilScreenHandler.this.output.unlockLastRecipe(player);
+                FabricatorScreenHandler.this.output.unlockLastRecipe(player);
 
                 if(isInBounds(getSelectedRecipe()) && getAvailableRecipes().get(getSelectedRecipe()) != null)
-                    getAvailableRecipes().get(getSelectedRecipe()).onCraft(SmithingAnvilScreenHandler.this.input);
+                    getAvailableRecipes().get(getSelectedRecipe()).onCraft(FabricatorScreenHandler.this.input);
 
-                SmithingAnvilScreenHandler.this.onHammerSlotChanged(SmithingAnvilScreenHandler.this.input);
-                SmithingAnvilScreenHandler.this.onMaterialSlotChanged(SmithingAnvilScreenHandler.this.input);
+                FabricatorScreenHandler.this.onHammerSlotChanged(FabricatorScreenHandler.this.input);
+                FabricatorScreenHandler.this.onMaterialSlotChanged(FabricatorScreenHandler.this.input);
 
-                SmithingAnvilScreenHandler.this.updateResult();
+                FabricatorScreenHandler.this.updateResult();
 
-                SmithingAnvilScreenHandler.this.context.run((world1, pos) -> {
+                FabricatorScreenHandler.this.context.run((world1, pos) -> {
                     long l = world1.getTime();
-                    if(SmithingAnvilScreenHandler.this.lastTakeTime != l)
+                    if(FabricatorScreenHandler.this.lastTakeTime != l)
                     {
                         world1.playSound(null, pos, SoundEvents.BLOCK_ANVIL_USE, SoundCategory.BLOCKS, 1.0f, 1.0f);
-                        SmithingAnvilScreenHandler.this.lastTakeTime = l;
+                        FabricatorScreenHandler.this.lastTakeTime = l;
                     }
                 });
 
@@ -138,7 +138,7 @@ public class SmithingAnvilScreenHandler extends ScreenHandler
         return this.selectedRecipe.get();
     }
 
-    public List<SmithingAnvilRecipe> getAvailableRecipes()
+    public List<FabricatorRecipe> getAvailableRecipes()
     {
         return this.availableRecipes;
     }
@@ -289,12 +289,12 @@ public class SmithingAnvilScreenHandler extends ScreenHandler
         this.contentsChangedListener.run();
 
         this.context.run((world1, blockPos) -> {
-            if(Objects.requireNonNull(world1.getBlockEntity(blockPos)) instanceof SmithingAnvilBlockEntity smithingAnvilBlockEntity)
-                smithingAnvilBlockEntity.updateListeners();
+            if(Objects.requireNonNull(world1.getBlockEntity(blockPos)) instanceof FabricatorBlockEntity fabricatorBlockEntity)
+                fabricatorBlockEntity.updateListeners();
         });
 
         if(!inventory.isEmpty())
-            this.availableRecipes = this.world.getRecipeManager().getAllMatches(SmithingAnvilRecipe.Type.INSTANCE, inventory, this.world);
+            this.availableRecipes = this.world.getRecipeManager().getAllMatches(FabricatorRecipe.Type.INSTANCE, inventory, this.world);
 
         this.sendContentUpdates();
     }
@@ -303,7 +303,7 @@ public class SmithingAnvilScreenHandler extends ScreenHandler
     {
         if(!this.availableRecipes.isEmpty() && this.isInBounds(getSelectedRecipe()) && canAffordRecipe())
         {
-            SmithingAnvilRecipe recipe = this.availableRecipes.get(getSelectedRecipe());
+            FabricatorRecipe recipe = this.availableRecipes.get(getSelectedRecipe());
             this.output.setLastRecipe(recipe);
             this.outputSlot.setStack(recipe.craft(this.input));
         }

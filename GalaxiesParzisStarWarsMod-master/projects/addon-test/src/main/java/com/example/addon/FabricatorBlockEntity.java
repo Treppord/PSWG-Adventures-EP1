@@ -1,6 +1,6 @@
 package com.example.addon;
 
-import com.example.addon.screen.SmithingAnvilScreenHandler;
+import com.example.addon.screen.FabricatorScreenHandler;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.LockableContainerBlockEntity;
@@ -19,11 +19,11 @@ import net.minecraft.util.collection.DefaultedList;
 import net.minecraft.util.math.BlockPos;
 import org.jetbrains.annotations.Nullable;
 
-public class SmithingAnvilBlockEntity extends LockableContainerBlockEntity
+public class FabricatorBlockEntity extends LockableContainerBlockEntity
 {
     protected DefaultedList<ItemStack> inventory;
 
-    public SmithingAnvilBlockEntity(BlockPos blockPos, BlockState blockState)
+    public FabricatorBlockEntity(BlockPos blockPos, BlockState blockState)
     {
         super(TestAddonEntities.SMITHING_ANVIL_BLOCK_ENTITY, blockPos, blockState);
         this.inventory = DefaultedList.ofSize(2, ItemStack.EMPTY);
@@ -38,7 +38,7 @@ public class SmithingAnvilBlockEntity extends LockableContainerBlockEntity
     @Override
     protected ScreenHandler createScreenHandler(int syncId, PlayerInventory playerInventory)
     {
-        return new SmithingAnvilScreenHandler(syncId, playerInventory, this, ScreenHandlerContext.create(world, pos));
+        return new FabricatorScreenHandler(syncId, playerInventory, this, ScreenHandlerContext.create(world, pos));
     }
 
     @Override

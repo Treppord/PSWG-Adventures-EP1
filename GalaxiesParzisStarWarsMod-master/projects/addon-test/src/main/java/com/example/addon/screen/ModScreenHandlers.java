@@ -11,7 +11,7 @@ public class ModScreenHandlers {
     public static ScreenHandlerType<BlasterTableScreenHandler> BLASTER_TABLE_SCREEN_HANDLER;
 
 
-    public static ScreenHandlerType<SmithingAnvilScreenHandler> SMITHING_ANVIL_SCREEN_HANDLER_TYPE;
+    public static ScreenHandlerType<FabricatorScreenHandler> SMITHING_ANVIL_SCREEN_HANDLER_TYPE;
 
     public static void registerAllScreenHandlers() {
         ARMOR_STATION_SCREEN_HANDLER =
@@ -25,6 +25,6 @@ public class ModScreenHandlers {
                         BlasterTableScreenHandler::new);
         SMITHING_ANVIL_SCREEN_HANDLER_TYPE =
                 ScreenHandlerRegistry.registerSimple(new Identifier(TestAddon.MODID, "smithing_anvil"),
-                        SmithingAnvilScreenHandler::new);
+                        FabricatorScreenHandler::new);
     }
 }

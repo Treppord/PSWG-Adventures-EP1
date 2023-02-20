@@ -19,7 +19,7 @@ public class TestBlocks {
 
 
     public static final Block SMITHING_ANVIL = registerBlock("fabricator",
-            new SmithingAnvilBlock(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool().nonOpaque()), ItemGroups.INGREDIENTS);
+            new FabricatorBlock(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool().nonOpaque()), ItemGroups.INGREDIENTS);
     public static final Block ARMOR_STATION = registerBlock("galaxy_forge",
             new ArmorStationBlock(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool().nonOpaque()), ItemGroups.INGREDIENTS);
 
