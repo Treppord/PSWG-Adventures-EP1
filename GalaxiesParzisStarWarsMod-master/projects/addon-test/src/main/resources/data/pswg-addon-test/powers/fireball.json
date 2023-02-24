@@ -1,0 +1,21 @@
+{
+    "type":"origins:fire_projectile",
+    "entity_type":"minecraft:fireball",
+    "tag":"{NoGravity:1b}",
+    "cooldown":160,
+    "count":1,
+    "hud_render":{
+      "sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_points_01.png",
+      "bar_index":6
+    },
+    "continuous":true,
+    "speed":0.5,
+    "sound":"entity.firework_rocket.launch",
+    "divergence": 0,
+    "name":"Rocket",
+    "description":"As a mandalorian, you gotta have rockets right? well, fire away! [primary]",
+    "key": {
+      "key": "key.origins.primary_active",
+      "continuous": true
+    }
+  }

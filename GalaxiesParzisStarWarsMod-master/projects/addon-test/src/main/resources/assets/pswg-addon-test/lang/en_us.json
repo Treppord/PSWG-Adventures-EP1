@@ -16,6 +16,10 @@
 	"item.pswg-addon-test.ilum_holodrive": "Holodrive",
 	"item.pswg-addon-test.nevarro_holodrive": "Holodrive",
 
+	"item.pswg-addon-test.mandalorian_spear_1": "Mandalorian Spear",
+	"item.pswg-addon-test.mandalorian_spear_2": "Mandalorian Spear",
+	"item.pswg-addon-test.mandalorian_spear_3": "Mandalorian Spear",
+
 	"item.pswg-addon-test.spawn_clone": "Clone Spawn Egg",
 
 	"item.pswg-addon-test.bronze_credit": "Bronze Credit",
@@ -40,6 +44,7 @@
 	"block.pswg-addon-test.merchant_station": "Merchant Station",
 	"block.pswg-addon-test.blaster_table": "Blaster Table",
 	"block.pswg-addon-test.fabricator": "Fabricator",
+	"block.pswg-addon-test.nevarro_stone": "Nevarro Stone",
 
 	"entity.minecraft.villager.armormaster": "Armor Master",
 	"entity.minecraft.villager.merchant": "Merchant",

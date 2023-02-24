@@ -22,7 +22,7 @@ public class TestEntities {
     {
         public static final EntityType<CloneEntity> Clone = Registry.register(Registries.ENTITY_TYPE, Resources.id("clone"), FabricEntityTypeBuilder
                 .create(SpawnGroup.MISC, CloneEntity::new)
-                .dimensions(EntityDimensions.fixed(3, 3))
+                .dimensions(EntityDimensions.fixed(1, 2))
                 .build());
 
         static void register()
@@ -31,9 +31,23 @@ public class TestEntities {
             FabricDefaultAttributeRegistry.register(Clone, CloneEntity.createAttributes());
         }
     }
+    public static class Droids
+    {
+        public static final EntityType<DroidEntity> Droids = Registry.register(Registries.ENTITY_TYPE, Resources.id("droid"), FabricEntityTypeBuilder
+                .create(SpawnGroup.MISC, DroidEntity::new)
+                .dimensions(EntityDimensions.fixed(1, 2))
+                .build());
+
+        static void register()
+        {
+            entityTypes.add(Droids);
+            FabricDefaultAttributeRegistry.register(Droids, DroidEntity.createAttributes());
+        }
+    }
 
     public static void register()
     {
         TestEntities.Clones.register();
+        TestEntities.Droids.register();
     }
 }

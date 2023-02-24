@@ -27,6 +27,8 @@ public class TestBlocks {
             new BlasterTableBlock(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool().nonOpaque()), ItemGroups.INGREDIENTS);
 
 
+    public static final Block NEVARRO_STONE = registerBlock("nevarro_stone",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ItemGroups.INGREDIENTS);
     public static final Block SCRAP_METAL = registerBlock("scrap_metal",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ItemGroups.INGREDIENTS);
 

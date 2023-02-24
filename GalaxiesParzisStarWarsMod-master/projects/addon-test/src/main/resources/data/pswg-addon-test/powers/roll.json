@@ -1,0 +1,6 @@
+{
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "name":"Roll",
+    "description":"pressing primary, you fold into a ball, unable to use your blasters, but gain speed. when out of your rolling mode, you gain high slowness, but your forcefield activates, reducing damage."
+}

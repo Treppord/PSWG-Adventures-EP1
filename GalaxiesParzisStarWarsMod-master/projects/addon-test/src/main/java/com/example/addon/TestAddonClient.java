@@ -4,6 +4,7 @@ import com.example.addon.client.Clone2ArmorTransformer;
 import com.example.addon.client.Mando1ArmorTransformer;
 import com.example.addon.client.VaderArmorTransformer;
 import com.example.addon.entity.CloneEntityRenderer;
+import com.example.addon.entity.DroidEntityRenderer;
 import com.example.addon.entity.TestEntities;
 import com.example.addon.screen.*;
 import com.parzivail.pswg.api.PswgClientAddon;
@@ -12,6 +13,8 @@ import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.fabricmc.fabric.api.client.screenhandler.v1.ScreenRegistry;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.client.render.entity.model.EntityModelLayer;
+import net.minecraft.util.Identifier;
 
 public class TestAddonClient implements PswgClientAddon
 {
@@ -128,5 +131,6 @@ public class TestAddonClient implements PswgClientAddon
 		ScreenRegistry.register(ModScreenHandlers.SMITHING_ANVIL_SCREEN_HANDLER_TYPE, FabricatorScreen::new);
 
 		EntityRendererRegistry.register(TestEntities.Clones.Clone, CloneEntityRenderer::new);
+		EntityRendererRegistry.register(TestEntities.Droids.Droids, DroidEntityRenderer::new);
 	}
 }

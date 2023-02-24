@@ -1,11 +1,14 @@
 {
 	"powers": [
-		"pswg-addon-test:force_push",
-		"pswg-addon-test:force_sprint"
+		"pswg-addon-test:forcejump",
+        "pswg-addon-test:sabertechn",
+        "pswg-addon-test:fall_immunity",
+        "pswg-addon-test:forcefreeze",
+        "pswg-addon-test:forcefreeze2"
 	],
 	"icon": "pswg:lightsaber",
 	"order": 10,
 	"impact": 0,
 	"name": "Jedi",
-	"description": "Join the order of knights."
+	"description": "You are a gaurdian of peace and justice in the galaxy. The light-side of the force is within you. do not hate. do not have fear. bring peace."
 }

@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Durasteel Protection Boost",
+    "attribute": "minecraft:generic.max_health",
+    "value": 4.0,
+    "operation": "addition"
+  },
+    "name":"Durasteel Made",
+    "description":"Because you are made of durasteel you have more durability/health."
+}

@@ -1,6 +1,9 @@
 {
-  "replace": false,
+  "replace": true,
   "origins": [
-    "pswg-addon-test:jedi"
+    "pswg-addon-test:jedi",
+    "pswg-addon-test:sith",
+    "pswg-addon-test:mandalorian",
+    "pswg-addon-test:droideka"
   ]
 }

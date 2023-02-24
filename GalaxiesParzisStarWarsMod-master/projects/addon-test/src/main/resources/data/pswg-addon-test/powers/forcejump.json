@@ -1,0 +1,16 @@
+{
+    "type": "origins:launch",
+    "cooldown": 600,
+    "hud_render": {
+        "bar_index": 4
+    },
+    "sound": "minecraft:entity.parrot.fly",
+    "speed": 2,
+    "key": {
+        "key": "key.origins.secondary_active",
+        "continuous": true
+    },
+     "name": "Force Jump",
+        "description": "using the force, you propell yourself to furthur hights than a normal person jumping. [secondary]"
+}
+

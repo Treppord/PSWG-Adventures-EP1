@@ -1,0 +1,10 @@
+{
+  "type": "origins:effect_immunity",
+    "effects": [
+        "minecraft:slowness"
+    ],
+    "key": {
+        "key": "key.origins.primary_active"
+    },
+    "hidden":true
+}

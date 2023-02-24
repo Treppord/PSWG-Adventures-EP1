@@ -1,0 +1,15 @@
+{
+	"type": "originsplus:grapple",
+	"strength": 1.5,
+	"cooldown": 60,
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "originsplus:textures/gui/originsplus/resource_bar_01.png",
+		"bar_index": 0
+	},
+	"key": "secondary",
+	"sound_on_thrown": "minecraft:entity.fishing_bobber.throw",
+	"sound_on_retract": "minecraft:entity.fishing_bobber.retrieve",
+    "name":"Grapple Hook",
+    "description":"As a mandalorian, you have a grapple hook. grapple to surfaces to escape or just to reach higher places to gather that bounty or something. [secondary]"
+}

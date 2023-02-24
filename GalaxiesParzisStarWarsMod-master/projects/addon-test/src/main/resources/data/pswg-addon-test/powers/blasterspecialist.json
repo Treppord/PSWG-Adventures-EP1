@@ -1,0 +1,19 @@
+{
+	"type": "origins:modify_damage_dealt",
+	"condition": {
+		"type": "origins:equipped_item",
+		"equipment_slot": "mainhand",
+		"item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"tag": "pswg-addon-test:weapon"
+			}
+		}
+	},
+	"modifier": {
+		"value": 0.5,
+		"operation": "multiply_total"
+	},
+	"name": "Martial Specialist",
+	"description": "All weapons gain a small damage boost when in mainhand!"
+}

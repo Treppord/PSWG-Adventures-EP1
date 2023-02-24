@@ -1,0 +1,19 @@
+{
+	"type": "origins:modify_damage_dealt",
+	"condition": {
+		"type": "origins:equipped_item",
+		"equipment_slot": "mainhand",
+		"item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"tag": "pswg-addon-test:lightsaber"
+			}
+		}
+	},
+	"modifier": {
+		"value": 2,
+		"operation": "multiply_total"
+	},
+	"name": "Lightsaber Techniques",
+	"description": "You have mastered lightsabers, therefor you are strong with it."
+}

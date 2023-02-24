@@ -3,7 +3,7 @@ package com.example.addon;
 import com.example.addon.custom.*;
 import com.example.addon.entity.TestEntities;
 import com.parzivail.pswg.Galaxies;
-import com.parzivail.pswg.container.SwgEntities;
+import com.parzivail.pswg.item.material.BeskarToolMaterial;
 import com.parzivail.util.registry.ArmorItems;
 import com.parzivail.util.registry.RegistryName;
 import com.parzivail.util.registry.RegistryOrder;
@@ -45,6 +45,13 @@ public class TestItems {
         @RegistryName("redmando")
         public static final ArmorItems RedMandalorian = new ArmorItems(ArmorMaterials.DIAMOND, new Item.Settings().maxCount(1));
     }
+
+    public static final Item MANDALORIAN_SPEAR_1 = registerItem("mandalorian_spear_1",
+            new SwordItem(BeskarToolMaterial.INSTANCE, 9, -2.85F, new Item.Settings()));
+    public static final Item MANDALORIAN_SPEAR_2 = registerItem("mandalorian_spear_2",
+            new SwordItem(BeskarToolMaterial.INSTANCE, 8, -2.75F, new Item.Settings()));
+    public static final Item MANDALORIAN_SPEAR_3 = registerItem("mandalorian_spear_3",
+            new SwordItem(BeskarToolMaterial.INSTANCE, 10, -2.9F, new Item.Settings()));
     public static final Item WAMPA_HIDE = registerItem("wampa_hide",
             new Item(new FabricItemSettings()));
 
@@ -155,6 +162,10 @@ public class TestItems {
         addToItemGroup(Galaxies.TabItems, DEATH_WATCH_EMBLEM);
         addToItemGroup(Galaxies.TabItems, FETT_EMBLEM);
         addToItemGroup(Galaxies.TabItems, SUPER_COMMANDO_EMBLEM);
+
+        addToItemGroup(Galaxies.TabItems, MANDALORIAN_SPEAR_1);
+        addToItemGroup(Galaxies.TabItems, MANDALORIAN_SPEAR_2);
+        addToItemGroup(Galaxies.TabItems, MANDALORIAN_SPEAR_3);
 
 
     }

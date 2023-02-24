@@ -1,0 +1,9 @@
+{
+  "type": "origins:invulnerability",
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "fall"
+  },
+    "name":"Halt Descent",
+    "description":"you use the force right before you hit the ground to halt your descent, making you immune to fall damage."
+}

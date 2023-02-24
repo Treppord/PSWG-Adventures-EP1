@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "pswg-addon-test:fabricator",
+    "pswg-addon-test:galaxy_forge",
+    "pswg-addon-test:scrap_metal",
+    "pswg-addon-test:blaster_table",
+    "pswg-addon-test:merchant_station"
+  ]
+}

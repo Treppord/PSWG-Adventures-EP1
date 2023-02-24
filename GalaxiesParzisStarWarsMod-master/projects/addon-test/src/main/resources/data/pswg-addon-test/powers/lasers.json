@@ -1,0 +1,21 @@
+{
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:arrow",
+    "cooldown": 8,
+    "speed":5,
+    "hud_render": {
+        "should_render": false
+    },
+    "tag": "{pickup:0b}{Enchantments:[{id:harming,lvl:2}]}",
+    "condition": {
+    "type": "origins:power_active",
+    "power": "d:roll",
+"inverted": true
+    },
+    "key": {
+        "key": "key.origins.secondary_active",
+        "continuous": true
+    },
+    "name":"Twin Blaster Cannons",
+    "description":"When not in your rolling mode, you can fire high-speed laser bolts from your twin blaster cannons"
+}

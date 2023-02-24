@@ -34,7 +34,7 @@ public class CloneEntity extends SkeletonEntity {
     }
 
     public static DefaultAttributeContainer.Builder createAttributes() {
-        return MobEntity.createMobAttributes().add(EntityAttributes.GENERIC_MAX_HEALTH, 10.0)
+        return MobEntity.createMobAttributes().add(EntityAttributes.GENERIC_MAX_HEALTH, 20.0)
                 .add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.30000000298023224)
                 .add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 3.0)
                 .add(EntityAttributes.GENERIC_ARMOR, 1.0);
@@ -42,7 +42,7 @@ public class CloneEntity extends SkeletonEntity {
 
     protected void initEquipment(Random random, LocalDifficulty localDifficulty) {
         super.initEquipment(random, localDifficulty);
-        this.equipStack(EquipmentSlot.MAINHAND, new ItemStack(Registries.ITEM.get(Resources.id("blaster_a280"))));
+        this.equipStack(EquipmentSlot.MAINHAND, new ItemStack(TestItems.MANDALORIAN_SPEAR_3));
         this.equipStack(EquipmentSlot.HEAD, new ItemStack(TestItems.Armor.Mandalorian.helmet));
         this.equipStack(EquipmentSlot.CHEST, new ItemStack(TestItems.Armor.Mandalorian.chestplate));
         this.equipStack(EquipmentSlot.LEGS, new ItemStack(TestItems.Armor.Mandalorian.leggings));

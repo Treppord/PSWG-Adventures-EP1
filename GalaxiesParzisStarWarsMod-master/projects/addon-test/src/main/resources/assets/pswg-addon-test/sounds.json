@@ -1,7 +1,7 @@
 {
 	"blaster.fire.dc17": {
 		"sounds": [
-			"pswg-test-addon:blaster/fire/dc17"
+			"pswg-addon-test:blaster/fire/dc17"
 		]
 	}
 }
