@@ -1,7 +1,7 @@
 package com.example.addon.datagen;
 
-import com.example.addon.TestBlocks;
-import com.example.addon.TestItems;
+import com.example.addon.blocks.AdventureBlocks;
+import com.example.addon.items.AdventureItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
@@ -15,11 +15,11 @@ public class TestModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerCubeAllModelTexturePool(TestBlocks.ARMOR_STATION);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(AdventureBlocks.ARMOR_STATION);
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        itemModelGenerator.register(TestItems.WAMPA_HIDE, Models.GENERATED);
+        itemModelGenerator.register(AdventureItems.WAMPA_HIDE, Models.GENERATED);
     }
 }

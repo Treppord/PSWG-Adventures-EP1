@@ -1,6 +1,6 @@
 package com.example.addon.compat;
 import com.example.addon.TestAddon;
-import com.example.addon.TestBlocks;
+import com.example.addon.blocks.AdventureBlocks;
 import com.example.addon.recipe.FabricatorRecipe;
 import me.shedaniel.rei.api.client.plugins.REIClientPlugin;
 import me.shedaniel.rei.api.client.registry.category.CategoryRegistry;
@@ -22,7 +22,7 @@ public class TestAddonPlugin implements REIClientPlugin
     {
         registry.add(new FabricatorCategory());
 
-        registry.addWorkstations(FABRICATOR_DISPLAY_CATEGORY_IDENTIFIER, EntryStacks.of(TestBlocks.SMITHING_ANVIL));
+        registry.addWorkstations(FABRICATOR_DISPLAY_CATEGORY_IDENTIFIER, EntryStacks.of(AdventureBlocks.SMITHING_ANVIL));
     }
 
     @Override

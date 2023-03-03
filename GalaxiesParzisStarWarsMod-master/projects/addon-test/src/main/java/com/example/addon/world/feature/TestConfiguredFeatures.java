@@ -2,12 +2,11 @@ package com.example.addon.world.feature;
 
 
 import com.example.addon.TestAddon;
-import com.example.addon.TestBlocks;
+import com.example.addon.blocks.AdventureBlocks;
 import net.minecraft.block.Blocks;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
-import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.structure.rule.BlockMatchRuleTest;
 import net.minecraft.structure.rule.RuleTest;
@@ -36,10 +35,10 @@ public class TestConfiguredFeatures {
         register(context, BESKAR_GEODE_KEY, Feature.GEODE ,
                 new GeodeFeatureConfig(new GeodeLayerConfig(BlockStateProvider.of(Blocks.AIR),
                         BlockStateProvider.of(Blocks.DEEPSLATE),
-                        BlockStateProvider.of(TestBlocks.SCRAP_METAL),
+                        BlockStateProvider.of(AdventureBlocks.SCRAP_METAL),
                         BlockStateProvider.of(Blocks.COBBLED_DEEPSLATE),
                         BlockStateProvider.of(Blocks.COBBLESTONE),
-                        List.of(TestBlocks.SCRAP_METAL.getDefaultState()),
+                        List.of(AdventureBlocks.SCRAP_METAL.getDefaultState()),
                         BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                         new GeodeLayerThicknessConfig(1.7D, 1.2D, 2.5D, 3.5D),
                         new GeodeCrackConfig(0.25D, 1.5D, 1),

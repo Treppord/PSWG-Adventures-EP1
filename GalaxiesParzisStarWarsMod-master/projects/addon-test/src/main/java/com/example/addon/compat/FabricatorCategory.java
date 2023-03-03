@@ -1,6 +1,6 @@
 package com.example.addon.compat;
 
-import com.example.addon.TestBlocks;
+import com.example.addon.blocks.AdventureBlocks;
 import com.example.addon.screen.FabricatorScreen;
 import me.shedaniel.math.Point;
 import me.shedaniel.math.Rectangle;
@@ -20,7 +20,7 @@ import java.util.List;
 
 public class FabricatorCategory implements DisplayCategory<FabricatorDisplay> {
     public static final Text TITLE = Text.translatable("rei.pswg-adventures.fabricator");
-    public static final EntryStack<ItemStack> ICON = EntryStacks.of(TestBlocks.SMITHING_ANVIL);
+    public static final EntryStack<ItemStack> ICON = EntryStacks.of(AdventureBlocks.SMITHING_ANVIL);
 
     @Override
     public Renderer getIcon() {

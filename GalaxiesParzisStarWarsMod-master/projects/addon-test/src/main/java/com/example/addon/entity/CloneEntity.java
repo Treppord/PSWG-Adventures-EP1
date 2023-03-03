@@ -1,16 +1,10 @@
 package com.example.addon.entity;
 
-import com.example.addon.TestItems;
-import com.parzivail.pswg.BaseContent;
-import com.parzivail.pswg.Config;
-import com.parzivail.pswg.Galaxies;
+import com.example.addon.items.AdventureItems;
 import com.parzivail.pswg.Resources;
-import com.parzivail.pswg.container.SwgItems;
-import com.parzivail.pswg.item.blaster.BlasterItem;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.entity.attribute.AttributeContainer;
 import net.minecraft.entity.attribute.DefaultAttributeContainer;
 import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.entity.damage.DamageSource;
@@ -18,7 +12,6 @@ import net.minecraft.entity.mob.CreeperEntity;
 import net.minecraft.entity.mob.MobEntity;
 import net.minecraft.entity.mob.SkeletonEntity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.item.RangedWeaponItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.sound.SoundEvent;
@@ -42,11 +35,11 @@ public class CloneEntity extends SkeletonEntity {
 
     protected void initEquipment(Random random, LocalDifficulty localDifficulty) {
         super.initEquipment(random, localDifficulty);
-        this.equipStack(EquipmentSlot.MAINHAND, new ItemStack(TestItems.MANDALORIAN_SPEAR_3));
-        this.equipStack(EquipmentSlot.HEAD, new ItemStack(TestItems.Armor.Mandalorian.helmet));
-        this.equipStack(EquipmentSlot.CHEST, new ItemStack(TestItems.Armor.Mandalorian.chestplate));
-        this.equipStack(EquipmentSlot.LEGS, new ItemStack(TestItems.Armor.Mandalorian.leggings));
-        this.equipStack(EquipmentSlot.FEET, new ItemStack(TestItems.Armor.Mandalorian.boots));
+        this.equipStack(EquipmentSlot.MAINHAND, new ItemStack(AdventureItems.MANDALORIAN_SPEAR_3));
+        this.equipStack(EquipmentSlot.HEAD, new ItemStack(AdventureItems.Armor.Mandalorian.helmet));
+        this.equipStack(EquipmentSlot.CHEST, new ItemStack(AdventureItems.Armor.Mandalorian.chestplate));
+        this.equipStack(EquipmentSlot.LEGS, new ItemStack(AdventureItems.Armor.Mandalorian.leggings));
+        this.equipStack(EquipmentSlot.FEET, new ItemStack(AdventureItems.Armor.Mandalorian.boots));
     }
 
 
@@ -73,7 +66,7 @@ public class CloneEntity extends SkeletonEntity {
         if (entity instanceof CreeperEntity creeperEntity) {
             if (creeperEntity.shouldDropHead()) {
                 creeperEntity.onHeadDropped();
-                this.dropItem(TestItems.DAGOBAH_HOLODRIVE);
+                this.dropItem(AdventureItems.DAGOBAH_HOLODRIVE);
             }
         }
 

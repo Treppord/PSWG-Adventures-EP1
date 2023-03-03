@@ -1,9 +1,16 @@
 package com.example.addon;
 
+import com.example.addon.blocks.AdventureBlocks;
+import com.example.addon.blocks.entity.AdventureBlockEntities;
+import com.example.addon.entity.AdventureVillagers;
 import com.example.addon.entity.TestEntities;
+import com.example.addon.items.AdventureItems;
 import com.example.addon.recipe.ModRecipes;
 import com.example.addon.recipe.TestRecipeType;
 import com.example.addon.screen.ModScreenHandlers;
+import com.example.addon.util.AdventureStatistics;
+import com.example.addon.util.AdventureTags;
+import com.example.addon.util.PlanetGuiCommandRunner;
 import com.parzivail.pswg.api.PswgAddon;
 import com.parzivail.pswg.container.SwgItems;
 import com.parzivail.util.Lumberjack;
@@ -36,28 +43,28 @@ public class TestAddon implements PswgAddon
 			commandRunner.checkPlayerYLevel();
 		});
 
-		TestItems.registerModItems();
-		TestBlocks.registerModBlocks();
+		AdventureItems.registerModItems();
+		AdventureBlocks.registerModBlocks();
 
 
 
-		TestVillagers.registerVillagers();
-		TestVillagers.registerTrades();
+		AdventureVillagers.registerVillagers();
+		AdventureVillagers.registerTrades();
 
 		TestEntities.register();
 
-		TestAddonEntities.registerAllBlockEntities();
+		AdventureBlockEntities.registerAllBlockEntities();
 
 		ModScreenHandlers.registerAllScreenHandlers();
 		ModRecipes.registerRecipes();
 		TestRecipeType.register();
 
-		ModStatistics.register();
-		TestTags.register();
+		AdventureStatistics.register();
+		AdventureTags.register();
 
 
 
-		RegistryHelper.registerAutoId(MODID, TestItems.class, Object.class, SwgItems::tryRegisterItem);
+		RegistryHelper.registerAutoId(MODID, AdventureItems.class, Object.class, SwgItems::tryRegisterItem);
 
 		LOG.log("PSWG Legends Enabled!");
 	}

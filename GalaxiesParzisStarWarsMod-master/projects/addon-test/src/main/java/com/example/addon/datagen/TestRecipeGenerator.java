@@ -1,7 +1,7 @@
 package com.example.addon.datagen;
 
-import com.example.addon.TestBlocks;
-import com.example.addon.TestItems;
+import com.example.addon.blocks.AdventureBlocks;
+import com.example.addon.items.AdventureItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
@@ -20,21 +20,21 @@ public class TestRecipeGenerator extends FabricRecipeProvider {
 
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
-        offerSmelting(exporter, List.of(TestBlocks.SCRAP_METAL), RecipeCategory.BUILDING_BLOCKS, TestItems.BESKAR_SCRAPS,
+        offerSmelting(exporter, List.of(AdventureBlocks.SCRAP_METAL), RecipeCategory.BUILDING_BLOCKS, AdventureItems.BESKAR_SCRAPS,
                 3f, 300, "beskar");
 
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, TestItems.BESKAR_SCRAPS, RecipeCategory.DECORATIONS, TestBlocks.SCRAP_METAL);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, AdventureItems.BESKAR_SCRAPS, RecipeCategory.DECORATIONS, AdventureBlocks.SCRAP_METAL);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, TestItems.BESKAR_ALLOY)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, AdventureItems.BESKAR_ALLOY)
                 .pattern("###")
                 .pattern("#I#")
                 .pattern("###")
                 .input('I', Items.IRON_INGOT)
-                .input('#', TestItems.SILVER_CREDIT)
+                .input('#', AdventureItems.SILVER_CREDIT)
                 .criterion(FabricRecipeProvider.hasItem(Items.IRON_INGOT),
                         FabricRecipeProvider.conditionsFromItem(Items.IRON_INGOT))
-                .criterion(FabricRecipeProvider.hasItem(TestItems.SILVER_CREDIT),
-                        FabricRecipeProvider.conditionsFromItem(TestItems.SILVER_CREDIT))
-                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(TestItems.BESKAR_ALLOY)));
+                .criterion(FabricRecipeProvider.hasItem(AdventureItems.SILVER_CREDIT),
+                        FabricRecipeProvider.conditionsFromItem(AdventureItems.SILVER_CREDIT))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(AdventureItems.BESKAR_ALLOY)));
     }
 }

@@ -1,7 +1,7 @@
 package com.example.addon.recipe;
 
 import com.example.addon.TestAddon;
-import com.example.addon.TestBlocks;
+import com.example.addon.blocks.AdventureBlocks;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSyntaxException;
 import net.minecraft.inventory.Inventory;
@@ -109,7 +109,7 @@ public class FabricatorRecipe implements Recipe<Inventory>
     @Override
     public ItemStack createIcon()
     {
-        return new ItemStack(TestBlocks.SMITHING_ANVIL);
+        return new ItemStack(AdventureBlocks.SMITHING_ANVIL);
     }
 
     @Override

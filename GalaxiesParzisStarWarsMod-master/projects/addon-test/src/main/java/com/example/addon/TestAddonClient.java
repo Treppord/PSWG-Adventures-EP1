@@ -1,11 +1,13 @@
 package com.example.addon;
 
+import com.example.addon.blocks.AdventureBlocks;
 import com.example.addon.client.Clone2ArmorTransformer;
 import com.example.addon.client.Mando1ArmorTransformer;
 import com.example.addon.client.VaderArmorTransformer;
 import com.example.addon.entity.CloneEntityRenderer;
 import com.example.addon.entity.DroidEntityRenderer;
 import com.example.addon.entity.TestEntities;
+import com.example.addon.items.AdventureItems;
 import com.example.addon.screen.*;
 import com.parzivail.pswg.api.PswgClientAddon;
 import com.parzivail.pswg.client.render.armor.ArmorRenderer;
@@ -13,8 +15,6 @@ import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.fabricmc.fabric.api.client.screenhandler.v1.ScreenRegistry;
 import net.minecraft.client.render.RenderLayer;
-import net.minecraft.client.render.entity.model.EntityModelLayer;
-import net.minecraft.util.Identifier;
 
 public class TestAddonClient implements PswgClientAddon
 {
@@ -57,7 +57,7 @@ public class TestAddonClient implements PswgClientAddon
 
 		var clonePhase1ArmorModelKey = TestAddon.id("beskar_alloy");
 		ArmorRenderer.register(
-				TestItems.Armor.PhaseAClone,
+				AdventureItems.Armor.PhaseAClone,
 				clonePhase1ArmorModelKey,
 				cloneArmorAssets,
 				new ArmorRenderer.Metadata(ArmorRenderer.ArmThicknessAction.AUTO_THICKNESS, ArmorRenderer.FemaleChestplateAction.HIDE_CUBE)
@@ -66,7 +66,7 @@ public class TestAddonClient implements PswgClientAddon
 
 		var clonePhase2ArmorModelKey = TestAddon.id("beskar_alloy_alternative");
 		ArmorRenderer.register(
-				TestItems.Armor.PhaseBClone,
+				AdventureItems.Armor.PhaseBClone,
 				clonePhase2ArmorModelKey,
 				cloneArmorAssets,
 				new ArmorRenderer.Metadata(ArmorRenderer.ArmThicknessAction.AUTO_THICKNESS, ArmorRenderer.FemaleChestplateAction.HIDE_CUBE)
@@ -75,7 +75,7 @@ public class TestAddonClient implements PswgClientAddon
 
 		var MandoArmorModelKey = TestAddon.id("mando");
 		ArmorRenderer.register(
-				TestItems.Armor.Mandalorian,
+				AdventureItems.Armor.Mandalorian,
 				MandoArmorModelKey,
 				beskarArmorAssets,
 				new ArmorRenderer.Metadata(ArmorRenderer.ArmThicknessAction.AUTO_THICKNESS, ArmorRenderer.FemaleChestplateAction.HIDE_CUBE)
@@ -84,7 +84,7 @@ public class TestAddonClient implements PswgClientAddon
 
 		var CyanMandoArmorModelKey = TestAddon.id("cyanmando");
 		ArmorRenderer.register(
-				TestItems.Armor.CyanMandalorian,
+				AdventureItems.Armor.CyanMandalorian,
 				CyanMandoArmorModelKey,
 				cyanbeskarArmorAssets,
 				new ArmorRenderer.Metadata(ArmorRenderer.ArmThicknessAction.AUTO_THICKNESS, ArmorRenderer.FemaleChestplateAction.HIDE_CUBE)
@@ -93,7 +93,7 @@ public class TestAddonClient implements PswgClientAddon
 
 		var RedMandoArmorModelKey = TestAddon.id("redmando");
 		ArmorRenderer.register(
-				TestItems.Armor.RedMandalorian,
+				AdventureItems.Armor.RedMandalorian,
 				RedMandoArmorModelKey,
 				redbeskarArmorAssets,
 				new ArmorRenderer.Metadata(ArmorRenderer.ArmThicknessAction.AUTO_THICKNESS, ArmorRenderer.FemaleChestplateAction.HIDE_CUBE)
@@ -102,7 +102,7 @@ public class TestAddonClient implements PswgClientAddon
 
 		var BlueMandoArmorModelKey = TestAddon.id("bluemando");
 		ArmorRenderer.register(
-				TestItems.Armor.BlueMandalorian,
+				AdventureItems.Armor.BlueMandalorian,
 				BlueMandoArmorModelKey,
 				bluebeskarArmorAssets,
 				new ArmorRenderer.Metadata(ArmorRenderer.ArmThicknessAction.AUTO_THICKNESS, ArmorRenderer.FemaleChestplateAction.HIDE_CUBE)
@@ -111,7 +111,7 @@ public class TestAddonClient implements PswgClientAddon
 
 		var VaderArmorModelKey = TestAddon.id("vader");
 		ArmorRenderer.register(
-				TestItems.Armor.VADER,
+				AdventureItems.Armor.VADER,
 				VaderArmorModelKey,
 				vaderArmorAssets,
 				new ArmorRenderer.Metadata(ArmorRenderer.ArmThicknessAction.AUTO_THICKNESS, ArmorRenderer.FemaleChestplateAction.HIDE_CUBE)
@@ -119,9 +119,9 @@ public class TestAddonClient implements PswgClientAddon
 		ArmorRenderer.registerTransformer(VaderArmorModelKey, new VaderArmorTransformer());
 
 		TestAddon.LOG.log("Hello, Client World!");
-		BlockRenderLayerMap.INSTANCE.putBlock(TestBlocks.ARMOR_STATION, RenderLayer.getCutout());
-		BlockRenderLayerMap.INSTANCE.putBlock(TestBlocks.MARKET_STATION, RenderLayer.getCutout());
-		BlockRenderLayerMap.INSTANCE.putBlock(TestBlocks.BLASTER_TABLE, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(AdventureBlocks.ARMOR_STATION, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(AdventureBlocks.MARKET_STATION, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(AdventureBlocks.BLASTER_TABLE, RenderLayer.getCutout());
 
 
 		ScreenRegistry.register(ModScreenHandlers.ARMOR_STATION_SCREEN_HANDLER, ArmorStationScreen::new);

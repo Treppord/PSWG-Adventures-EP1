@@ -1,8 +1,8 @@
 package com.example.addon.screen;
 
-import com.example.addon.FabricatorBlockEntity;
-import com.example.addon.TestBlocks;
-import com.example.addon.TestTags;
+import com.example.addon.blocks.entity.FabricatorBlockEntity;
+import com.example.addon.blocks.AdventureBlocks;
+import com.example.addon.util.AdventureTags;
 import com.example.addon.recipe.FabricatorRecipe;
 import com.google.common.collect.Lists;
 import net.minecraft.entity.player.PlayerEntity;
@@ -171,7 +171,7 @@ public class FabricatorScreenHandler extends ScreenHandler
     @Override
     public boolean canUse(PlayerEntity player)
     {
-        return canUse(this.context, player, TestBlocks.SMITHING_ANVIL);
+        return canUse(this.context, player, AdventureBlocks.SMITHING_ANVIL);
     }
 
     @Override
@@ -210,7 +210,7 @@ public class FabricatorScreenHandler extends ScreenHandler
                         return ItemStack.EMPTY;
                     }
                 }
-                else if (slotStack.isIn(TestTags.HOLODRIVE)) // inventory to hammer slot
+                else if (slotStack.isIn(AdventureTags.HOLODRIVE)) // inventory to hammer slot
                 {
                     if (!this.insertItem(slotStack, 0, 1, false))
                     {
@@ -348,7 +348,7 @@ public class FabricatorScreenHandler extends ScreenHandler
                     return ItemStack.EMPTY;
                 }
             }
-            else if (slotStack.isIn(TestTags.HOLODRIVE)) // inventory to hammer slot
+            else if (slotStack.isIn(AdventureTags.HOLODRIVE)) // inventory to hammer slot
             {
                 if (!this.insertItem(slotStack, 0, 1, false))
                 {
