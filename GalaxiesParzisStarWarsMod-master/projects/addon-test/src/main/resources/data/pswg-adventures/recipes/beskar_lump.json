@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pswg-adventures:beskar_scraps"
+    },
+    {
+      "item": "pswg-adventures:beskar_scraps"
+    },
+    {
+      "item": "pswg-adventures:beskar_scraps"
+    },
+    {
+      "item": "pswg-adventures:beskar_scraps"
+    }
+  ],
+  "result": {
+    "item": "pswg-adventures:beskar_lump"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "pswg-adventures:fabricator",
+    "pswg-adventures:galaxy_forge",
+    "pswg-adventures:scrap_metal",
+    "pswg-adventures:blaster_table",
+    "pswg-adventures:merchant_station"
+  ]
+}

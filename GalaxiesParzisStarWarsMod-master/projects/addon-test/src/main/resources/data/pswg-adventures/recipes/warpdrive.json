@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZXZ",
+    "XYX",
+    "ZXZ"
+  ],
+  "key": {
+    "X": {
+      "item": "pswg:desh_ingot"
+    },
+    "Y": {
+      "item": "pswg-adventures:holodrive"
+    },
+    "Z": {
+      "item": "pswg:durasteel_rod"
+    }
+  },
+  "result": {
+    "item": "pswg-adventures:warpdrive"
+  }
+}

@@ -8,6 +8,8 @@ import com.parzivail.pswg.api.PswgAddon;
 import com.parzivail.pswg.container.SwgItems;
 import com.parzivail.util.Lumberjack;
 import com.parzivail.util.registry.RegistryHelper;
+import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
+import net.minecraft.client.MinecraftClient;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -17,7 +19,7 @@ import org.slf4j.LoggerFactory;
 
 public class TestAddon implements PswgAddon
 {
-	public static final String MODID = "pswg-addon-test";
+	public static final String MODID = "pswg-adventures";
 	public static final Lumberjack LOG = new Lumberjack(MODID);
 
 	public static final Logger LOGGER = LoggerFactory.getLogger("modid");
@@ -28,6 +30,12 @@ public class TestAddon implements PswgAddon
 	@Override
 	public void onPswgReady()
 	{
+		ServerTickEvents.END_SERVER_TICK.register(server -> {
+			MinecraftClient client = MinecraftClient.getInstance();
+			PlanetGuiCommandRunner commandRunner = new PlanetGuiCommandRunner(client);
+			commandRunner.checkPlayerYLevel();
+		});
+
 		TestItems.registerModItems();
 		TestBlocks.registerModBlocks();
 

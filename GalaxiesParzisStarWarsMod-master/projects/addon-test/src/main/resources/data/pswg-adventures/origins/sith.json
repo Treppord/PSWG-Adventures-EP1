@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"pswg-adventures:forcejump",
+        "pswg-adventures:sabertechn",
+        "pswg-adventures:fall_immunity",
+        "pswg-adventures:forcechoke"
+	],
+	"icon": "pswg-adventures:vader_helmet",
+	"order": 10,
+	"impact": 0,
+	"name": "Sith",
+	"description": "You are a feared power in the galaxy. you are devoted to the dark-side of the force. do you feel hate? good, embrace it. use it. destroy your enemies."
+}

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "pswg-adventures:block/fabricator" },
+    "facing=east": { "model": "pswg-adventures:block/fabricator", "y": 90 },
+    "facing=south": { "model": "pswg-adventures:block/fabricator", "y": 180 },
+    "facing=west": { "model": "pswg-adventures:block/fabricator", "y": 270 }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XYX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:blackstone"
+    },
+    "Y": {
+      "item": "pswg-adventures:holodrive"
+    }
+  },
+  "result": {
+    "item": "pswg-adventures:nevarro_holodrive"
+  }
+}

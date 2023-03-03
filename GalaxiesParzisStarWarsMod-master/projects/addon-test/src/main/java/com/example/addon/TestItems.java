@@ -84,7 +84,8 @@ public class TestItems {
 
 
 
-
+    public static final Item OVERWORLD_ITEM = registerItem("overworld_item",
+            new OverworldItem(new FabricItemSettings()));
     public static final Item TATOOINE_ITEM = registerItem("tatooine_item",
             new TatooineItem(new FabricItemSettings()));
 

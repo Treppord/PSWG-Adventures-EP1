@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "pswg-adventures:block/blaster_table" },
+    "facing=east": { "model": "pswg-adventures:block/blaster_table", "y": 90 },
+    "facing=south": { "model": "pswg-adventures:block/blaster_table", "y": 180 },
+    "facing=west": { "model": "pswg-adventures:block/blaster_table", "y": 270 }
+  }
+}

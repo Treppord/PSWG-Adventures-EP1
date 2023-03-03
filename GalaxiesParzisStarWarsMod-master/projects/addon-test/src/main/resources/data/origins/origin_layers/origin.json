@@ -1,9 +1,9 @@
 {
   "replace": true,
   "origins": [
-    "pswg-addon-test:jedi",
-    "pswg-addon-test:sith",
-    "pswg-addon-test:mandalorian",
-    "pswg-addon-test:droideka"
+    "pswg-adventures:jedi",
+    "pswg-adventures:sith",
+    "pswg-adventures:mandalorian",
+    "pswg-adventures:droideka"
   ]
 }

@@ -27,7 +27,7 @@ public class HothItem extends Item {
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         if (world instanceof ServerWorld)
         {
-            RegistryKey<World> registryKey = RegistryKey.of(RegistryKeys.WORLD, new Identifier("pswg-addon-test","hoth"));
+            RegistryKey<World> registryKey = RegistryKey.of(RegistryKeys.WORLD, new Identifier("pswg-adventures","hoth"));
             ServerWorld serverWorld = (ServerWorld)world;
             ServerWorld otherDimesion = serverWorld.getServer().getWorld(registryKey);
             user.moveToWorld(otherDimesion);

@@ -32,7 +32,7 @@ public class FabricatorBlockEntity extends LockableContainerBlockEntity
     @Override
     protected Text getContainerName()
     {
-        return Text.translatable("container.pswg-addon-test.fabricator");
+        return Text.translatable("container.pswg-adventures.fabricator");
     }
 
     @Override

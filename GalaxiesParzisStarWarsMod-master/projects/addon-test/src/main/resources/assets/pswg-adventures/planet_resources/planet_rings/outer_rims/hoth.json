@@ -1,0 +1,8 @@
+{
+  "galaxy": "pswg-adventures:galaxy_far_away",
+  "solar_system": "pswg-adventures:outer_rims",
+  "texture": "pswg-adventures:textures/sky/hoth.png",
+  "speed": 387,
+  "scale": 14,
+  "radius": 8.0
+}

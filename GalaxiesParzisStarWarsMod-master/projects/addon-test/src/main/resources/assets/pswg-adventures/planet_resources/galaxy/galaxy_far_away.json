@@ -1,0 +1,6 @@
+{
+  "galaxy": "pswg-adventures:starwars",
+  "texture": "pswg-adventures:textures/sky/star_wars.png",
+  "button_color": "blue",
+  "scale": 300
+}

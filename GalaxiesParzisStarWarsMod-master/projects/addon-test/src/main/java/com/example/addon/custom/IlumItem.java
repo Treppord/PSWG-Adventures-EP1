@@ -27,7 +27,7 @@ public class IlumItem extends Item {
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         if (world instanceof ServerWorld)
         {
-            RegistryKey<World> registryKey = RegistryKey.of(RegistryKeys.WORLD, new Identifier("pswg-addon-test","ilum"));
+            RegistryKey<World> registryKey = RegistryKey.of(RegistryKeys.WORLD, new Identifier("pswg-adventures","ilum"));
             ServerWorld serverWorld = (ServerWorld)world;
             ServerWorld otherDimesion = serverWorld.getServer().getWorld(registryKey);
             user.moveToWorld(otherDimesion);

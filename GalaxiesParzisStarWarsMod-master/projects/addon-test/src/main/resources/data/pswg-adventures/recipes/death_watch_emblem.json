@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XYX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "pswg-adventures:beskar_lump"
+    },
+    "Y": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "pswg-adventures:death_watch_emblem"
+  }
+}

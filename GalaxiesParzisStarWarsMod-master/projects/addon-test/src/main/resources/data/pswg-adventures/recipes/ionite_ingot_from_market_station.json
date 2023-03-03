@@ -1,0 +1,11 @@
+{
+  "type": "pswg-adventures:market",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "output": {
+    "item": "pswg:ionite_ingot"
+  }
+}

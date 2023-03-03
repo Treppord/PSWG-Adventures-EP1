@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
-	"id": "pswg-addon-test",
-	"version": "0.0.7.1",
+	"id": "pswg-adventures",
+	"version": "0.0.9",
 	"name": "PSWG Addon: Adventures Ep 1",
 	"description": "Now this is podracing.",
 	"authors": [

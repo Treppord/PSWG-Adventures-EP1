@@ -29,6 +29,12 @@ public class TestBlocks {
 
     public static final Block NEVARRO_STONE = registerBlock("nevarro_stone",
             new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ItemGroups.INGREDIENTS);
+
+    public static final Block NEVARRO_STONE_SMOOTH = registerBlock("nevarro_stone_smooth",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ItemGroups.INGREDIENTS);
+
+    public static final Block NEVARRO_STONE_BRICK = registerBlock("nevarro_stone_brick",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ItemGroups.INGREDIENTS);
     public static final Block SCRAP_METAL = registerBlock("scrap_metal",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ItemGroups.INGREDIENTS);
 

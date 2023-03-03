@@ -1,0 +1,8 @@
+{
+  "galaxy": "pswg-adventures:galaxy_far_away",
+  "solar_system": "pswg-adventures:outer_rims",
+  "texture": "pswg-adventures:textures/sky/tatooine.png",
+  "speed": 687,
+  "scale": 11,
+  "radius": 2.0
+}

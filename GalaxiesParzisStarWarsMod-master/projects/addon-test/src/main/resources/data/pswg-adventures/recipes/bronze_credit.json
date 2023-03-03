@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pswg-adventures:silver_credit"
+    }
+  ],
+  "result": {
+    "item": "pswg-adventures:bronze_credit",
+    "count": 9
+  }
+}

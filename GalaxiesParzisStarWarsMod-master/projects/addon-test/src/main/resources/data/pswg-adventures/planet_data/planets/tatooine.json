@@ -1,0 +1,16 @@
+{
+  "translation": "gui.pswg-adventures.planet_selection.tatooine",
+  "galaxy": "pswg-adventures:galaxy_far_away",
+  "solar_system": "pswg-adventures:outer_rims",
+  "world": "pswg:tatooine",
+  "orbit_world": "pswg-adventures:tatooine_orbit",
+  "rocket_tier": 1,
+  "gravity": 9.806,
+  "has_atmosphere": true,
+  "days_in_year": 365,
+  "temperature": 20,
+  "solar_power": 10,
+  "orbit_solar_power": 15,
+  "has_oxygen": true,
+  "button_color": "yellow"
+}

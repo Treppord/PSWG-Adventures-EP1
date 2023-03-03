@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pswg-adventures:holodrive"
+    },
+    {
+      "item": "pswg-adventures:super_commando_emblem"
+    }
+  ],
+  "result": {
+    "item": "pswg-adventures:imperial_holodrive"
+  }
+}

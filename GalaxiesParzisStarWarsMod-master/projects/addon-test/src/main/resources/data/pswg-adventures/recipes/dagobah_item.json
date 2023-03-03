@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pswg-adventures:warpdrive"
+    },
+    {
+      "item": "pswg-adventures:dagobah_holodrive"
+    }
+  ],
+  "result": {
+    "item": "pswg-adventures:dagobah_item"
+  }
+}

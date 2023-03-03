@@ -1,0 +1,17 @@
+{
+  "type": "pswg-adventures:blaster_table",
+  "ingredients": [
+    {
+      "item": "pswg-adventures:trooper_holodrive"
+    },
+    {
+      "item": "pswg:durasteel_rod"
+    },
+    {
+      "item": "pswg:desh_coil"
+    }
+  ],
+  "output": {
+    "item": "pswg:blaster_dc15"
+  }
+}

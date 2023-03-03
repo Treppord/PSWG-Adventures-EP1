@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX ",
+    "XX ",
+    "   "
+  ],
+  "key": {
+    "X": {
+      "item": "pswg-adventures:nevarro_stone_smooth"
+    }
+  },
+  "result": {
+    "item": "pswg-adventures:nevarro_stone_brick",
+    "count": 4
+  }
+}

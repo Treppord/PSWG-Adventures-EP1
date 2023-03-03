@@ -1,0 +1,15 @@
+{
+	"powers": [
+    "pswg-adventures:roll",
+    "pswg-adventures:roll2",
+    "pswg-adventures:roll3",
+    "pswg-adventures:lasers",
+    "pswg-adventures:noweapon",
+    "pswg-adventures:fragile"
+	],
+	"icon": "pswg:electric_motor",
+	"order": 10,
+	"impact": 0,
+	"name": "Droideka",
+	"description": "You were built at the Colla IV droid manufacturing lines as a destroyer class battle droid, nicknamed droideka. you are a force to be reckoned with, even by yourself."
+}

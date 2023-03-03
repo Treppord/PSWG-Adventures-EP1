@@ -1,6 +1,0 @@
-{
-	"parent": "block/cube_all",
-	"textures": {
-		"all": "pswg-addon-test:block/nevarro_stone"
-	}
-}

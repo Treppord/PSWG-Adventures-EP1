@@ -1,0 +1,11 @@
+{
+  "type": "pswg-adventures:market",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_block"
+    }
+  ],
+  "output": {
+    "item": "pswg-adventures:gold_credit"
+  }
+}

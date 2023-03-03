@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pswg-adventures:warpdrive"
+    },
+    {
+      "item": "pswg-adventures:hoth_holodrive"
+    }
+  ],
+  "result": {
+    "item": "pswg-adventures:hoth_item"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "YZY",
+    "YAY"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:copper_block"
+    },
+    "Y": {
+      "item": "minecraft:deepslate"
+    },
+    "Z": {
+      "item": "minecraft:blast_furnace"
+    },
+    "A": {
+      "item": "pswg:electric_motor"
+    }
+  },
+  "result": {
+    "item": "pswg-adventures:galaxy_forge"
+  }
+}

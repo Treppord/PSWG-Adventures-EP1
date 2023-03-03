@@ -1,0 +1,16 @@
+{
+  "type": "pswg-adventures:smithing_anvil",
+  "crafting_tool": {
+    "item": "pswg-adventures:nevarro_holodrive"
+  },
+  "material": {
+    "item": "pswg-adventures:beskar_alloy_helmet"
+  },
+  "material_cost": 1,
+  "minimum_crafting_tier": -1,
+  "result": {
+    "item": "pswg-adventures:beskar_alloy_alternative_helmet"
+  }
+}
+
+

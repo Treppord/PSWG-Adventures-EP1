@@ -1,0 +1,11 @@
+{
+  "type": "pswg-adventures:market",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_ingot"
+    }
+  ],
+  "output": {
+    "item": "pswg:desh_ingot"
+  }
+}

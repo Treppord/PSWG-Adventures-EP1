@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"pswg-adventures:forcejump",
+        "pswg-adventures:sabertechn",
+        "pswg-adventures:fall_immunity",
+        "pswg-adventures:forcefreeze",
+        "pswg-adventures:forcefreeze2"
+	],
+	"icon": "pswg:lightsaber",
+	"order": 10,
+	"impact": 0,
+	"name": "Jedi",
+	"description": "You are a gaurdian of peace and justice in the galaxy. The light-side of the force is within you. do not hate. do not have fear. bring peace."
+}

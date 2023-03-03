@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "pswg-adventures:block/galaxy_forge" },
+    "facing=east": { "model": "pswg-adventures:block/galaxy_forge", "y": 90 },
+    "facing=south": { "model": "pswg-adventures:block/galaxy_forge", "y": 180 },
+    "facing=west": { "model": "pswg-adventures:block/galaxy_forge", "y": 270 }
+  }
+}

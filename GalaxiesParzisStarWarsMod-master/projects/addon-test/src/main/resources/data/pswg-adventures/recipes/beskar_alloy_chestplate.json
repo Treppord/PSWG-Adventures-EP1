@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Y Y",
+    "YYY",
+    "YYY"
+  ],
+  "key": {
+    "Y": {
+      "item": "pswg-adventures:beskar_alloy"
+    }
+  },
+  "result": {
+    "item": "pswg-adventures:beskar_alloy_chestplate"
+  }
+}

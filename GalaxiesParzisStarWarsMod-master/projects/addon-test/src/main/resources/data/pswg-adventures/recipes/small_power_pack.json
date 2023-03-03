@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZZZ",
+    "XYX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "pswg:titanium_nugget"
+    },
+    "Y": {
+      "item": "pswg:ionite_ingot"
+    },
+    "Z": {
+      "item": "pswg:insulated_desh_cable"
+    }
+  },
+  "result": {
+    "item": "pswg:small_power_pack"
+  }
+}

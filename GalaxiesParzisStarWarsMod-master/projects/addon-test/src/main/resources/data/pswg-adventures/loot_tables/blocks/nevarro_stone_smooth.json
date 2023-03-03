@@ -1,0 +1,1 @@
+{"type":"minecraft:block","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"pswg-adventures:nevarro_stone_smooth"}],"conditions":[{"condition":"minecraft:survives_explosion"}]}]}

@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FabricatorCategory implements DisplayCategory<FabricatorDisplay> {
-    public static final Text TITLE = Text.translatable("rei.pswg-addon-test.fabricator");
+    public static final Text TITLE = Text.translatable("rei.pswg-adventures.fabricator");
     public static final EntryStack<ItemStack> ICON = EntryStacks.of(TestBlocks.SMITHING_ANVIL);
 
     @Override

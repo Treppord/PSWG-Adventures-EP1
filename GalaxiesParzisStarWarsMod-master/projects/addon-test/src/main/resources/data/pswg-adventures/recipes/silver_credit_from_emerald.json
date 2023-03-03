@@ -1,0 +1,11 @@
+{
+  "type": "pswg-adventures:market",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_block"
+    }
+  ],
+  "output": {
+    "item": "pswg-adventures:silver_credit"
+  }
+}

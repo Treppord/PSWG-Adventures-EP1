@@ -1,0 +1,108 @@
+{
+	"item.pswg-adventures.wampa_hide": "Wampa Hide",
+	"item.pswg-adventures.beskar_alloy": "Beskar Alloy",
+	"item.pswg-adventures.beskar_scraps": "Beskar Scraps",
+	"item.pswg-adventures.beskar_lump": "Beskar Lump",
+
+	"item.pswg-adventures.holodrive": "Holodrive",
+	"item.pswg-adventures.trooper_holodrive": "Holodrive",
+	"item.pswg-adventures.imperial_holodrive": "Holodrive",
+
+
+	"item.pswg-adventures.overworld_holodrive": "Holodrive",
+	"item.pswg-adventures.tatooine_holodrive": "Holodrive",
+	"item.pswg-adventures.hoth_holodrive": "Holodrive",
+	"item.pswg-adventures.dagobah_holodrive": "Holodrive",
+	"item.pswg-adventures.ilum_holodrive": "Holodrive",
+	"item.pswg-adventures.nevarro_holodrive": "Holodrive",
+
+	"item.pswg-adventures.mandalorian_spear_1": "Mandalorian Spear",
+	"item.pswg-adventures.mandalorian_spear_2": "Mandalorian Spear",
+	"item.pswg-adventures.mandalorian_spear_3": "Mandalorian Spear",
+
+	"item.pswg-adventures.spawn_clone": "Clone Spawn Egg",
+
+	"item.pswg-adventures.bronze_credit": "Bronze Credit",
+	"item.pswg-adventures.silver_credit": "Silver Credit",
+	"item.pswg-adventures.gold_credit": "Gold Credit",
+
+	"item.pswg-adventures.tatooine_item": "Warpdrive",
+	"item.pswg-adventures.overworld_item": "Warpdrive",
+	"item.pswg-adventures.dagobah_item": "Warpdrive",
+	"item.pswg-adventures.hoth_item": "Warpdrive",
+	"item.pswg-adventures.ilum_item": "Warpdrive",
+	"item.pswg-adventures.nevarro_item": "Warpdrive",
+	"item.pswg-adventures.warpdrive": "Warpdrive",
+
+	"item.pswg-adventures.emblem": "Emblem",
+	"item.pswg-adventures.fett_emblem": "Fett Emblem",
+	"item.pswg-adventures.death_watch_emblem": "Death Watch Emblem",
+	"item.pswg-adventures.super_commando_emblem": "Super Commando Emblem",
+
+	"block.pswg-adventures.galaxy_forge": "Galaxy Forge",
+	"block.pswg-adventures.scrap_metal": "Scrap Metal Block",
+	"block.pswg-adventures.merchant_station": "Merchant Station",
+	"block.pswg-adventures.blaster_table": "Blaster Table",
+	"block.pswg-adventures.fabricator": "Fabricator",
+
+
+
+	"block.pswg-adventures.nevarro_stone": "Nevarro Stone",
+	"block.pswg-adventures.nevarro_stone_smooth": "Nevarro Smooth Stone",
+	"block.pswg-adventures.nevarro_stone_brick": "Nevarro Stone Brick",
+
+	"entity.minecraft.villager.armormaster": "Armor Master",
+	"entity.minecraft.villager.merchant": "Merchant",
+
+
+	"blaster.pswg-adventures.dc17": "§oBlasTech§r DC-17",
+	"item.pswg-adventures.beskar_alloy_boots": "Beskar Alloy Boots",
+	"item.pswg-adventures.beskar_alloy_chestplate": "Beskar Alloy Chestplate",
+	"item.pswg-adventures.beskar_alloy_helmet": "Beskar Alloy Helmet",
+	"item.pswg-adventures.beskar_alloy_leggings": "Beskar Alloy Leggings",
+	"item.pswg-adventures.beskar_alloy_alternative_boots": "Beskar Alloy Boots",
+	"item.pswg-adventures.beskar_alloy_alternative_chestplate": "Beskar Alloy Chestplate",
+	"item.pswg-adventures.beskar_alloy_alternative_helmet": "Beskar Alloy Helmet",
+	"item.pswg-adventures.beskar_alloy_alternative_leggings": "Beskar Alloy Leggings",
+
+	"item.pswg-adventures.mando_boots": "Mandalorian Boots",
+	"item.pswg-adventures.mando_chestplate": "Mandalorian Chestplate",
+	"item.pswg-adventures.mando_helmet": "Mandalorian Helmet",
+	"item.pswg-adventures.mando_leggings": "Mandalorian Leggings",
+
+	"item.pswg-adventures.vader_boots": "Vader Boots",
+	"item.pswg-adventures.vader_chestplate": "Vader Chestplate",
+	"item.pswg-adventures.vader_helmet": "Vader Helmet",
+	"item.pswg-adventures.vader_leggings": "Vader Leggings",
+
+	"item.pswg-adventures.redmando_boots": "Mandalorian Saxon Boots",
+	"item.pswg-adventures.redmando_chestplate": "Mandalorian Saxon Chestplate",
+	"item.pswg-adventures.redmando_helmet": "Mandalorian Saxon Helmet",
+	"item.pswg-adventures.redmando_leggings": "Mandalorian Saxon Leggings",
+
+	"item.pswg-adventures.bluemando_boots": "Mandalorian Fett Boots",
+	"item.pswg-adventures.bluemando_chestplate": "Mandalorian Fett Chestplate",
+	"item.pswg-adventures.bluemando_helmet": "Mandalorian Fett Helmet",
+	"item.pswg-adventures.bluemando_leggings": "Mandalorian Fett Leggings",
+
+	"item.pswg-adventures.cyanmando_boots": "Mandalorian Vizsla Boots",
+	"item.pswg-adventures.cyanmando_chestplate": "Mandalorian Vizsla Chestplate",
+	"item.pswg-adventures.cyanmando_helmet": "Mandalorian Vizsla Helmet",
+	"item.pswg-adventures.cyanmando_leggings": "Mandalorian Vizsla Leggings",
+
+	"container.pswg-adventures.fabricator": "Fabricator",
+	"rei.pswg-adventures.fabricator": "Fabricator",
+
+
+	"power.pswg-adventures.force_push.name": "Force Jump",
+	"power.pswg-adventures.force_sprint.name": "Force Sprint",
+
+	"power.pswg-adventures.force_push.description": "Use your primary key to leap into the air.",
+	"power.pswg-adventures.force_sprint.description": "When sprinting, you can jump 1.5 blocks.",
+
+	"gui.pswg-adventures.planet_selection.hoth": "Hoth",
+	"gui.pswg-adventures.planet_selection.tatooine": "Tatooine",
+	"gui.pswg-adventures.planet_selection.nevarro": "Nevarro",
+	"gui.pswg-adventures.text.galaxy_far_away": "The Galaxy",
+	"gui.pswg-adventures.text.outer_rims": "Outer Rim"
+}
