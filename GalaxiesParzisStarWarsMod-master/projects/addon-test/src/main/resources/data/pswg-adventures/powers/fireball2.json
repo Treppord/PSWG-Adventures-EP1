@@ -1,6 +1,6 @@
 {
     "type":"origins:fire_projectile",
-    "entity_type":"minecraft:small_fireball",
+    "entity_type":"pswg-adventures:thermal_detonator",
     "tag":"{NoGravity:1b}",
     "cooldown":160,
     "count":10,
@@ -12,8 +12,8 @@
     "speed":0.5,
     "sound":"entity.firework_rocket.launch",
     "divergence": 0,
-    "name":"Rocket",
-    "description":"As a mandalorian, you gotta have rockets right? well, fire away! [primary]",
+    "name":"Thermal Detonator",
+    "description":"As a Mandalorian, you gotta have Explosives! [primary]",
     "key": {
       "key": "key.origins.primary_active",
       "continuous": true

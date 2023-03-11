@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "YXY",
+    "YZY",
+    "YAY"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:stone_button"
+    },
+    "Y": {
+      "item": "pswg:cortosis_ingot"
+    },
+    "Z": {
+      "item": "minecraft:tnt"
+    },
+    "A": {
+      "item": "pswg:insulated_desh_cable"
+    }
+  },
+  "result": {
+    "item": "pswg-adventures:thermal_detonator"
+  }
+}

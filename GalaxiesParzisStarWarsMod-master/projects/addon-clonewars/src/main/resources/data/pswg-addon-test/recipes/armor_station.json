@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "Y Y",
+    "Y Y"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_block"
+    },
+    "Y": {
+      "item": "minecraft:diorite"
+    }
+  },
+  "result": {
+    "item": "pswg-addon-test:armor_station"
+  }
+}

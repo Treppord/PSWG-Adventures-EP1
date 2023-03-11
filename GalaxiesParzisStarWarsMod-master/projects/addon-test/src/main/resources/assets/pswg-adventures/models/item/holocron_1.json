@@ -1,0 +1,53 @@
+{
+	"credit": "Made by Treppord",
+	"textures": {
+		"0": "pswg-adventures:item/holocron_1",
+		"particle": "pswg-adventures:item/holocron_1"
+	},
+	"elements": [
+		{
+			"from": [6, 7, 7],
+			"to": [8, 9, 9],
+			"faces": {
+				"north": {"uv": [5, 5, 11, 11], "texture": "#0"},
+				"east": {"uv": [5, 5, 11, 11], "texture": "#0"},
+				"south": {"uv": [5, 5, 11, 11], "texture": "#0"},
+				"west": {"uv": [5, 5, 11, 11], "texture": "#0"},
+				"up": {"uv": [5, 5, 11, 11], "texture": "#0"},
+				"down": {"uv": [5, 5, 11, 11], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-2, 0, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"firstperson_righthand": {
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"firstperson_lefthand": {
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"ground": {
+			"translation": [0.75, 0, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"gui": {
+			"rotation": [21.62, 23.45, -8.94],
+			"translation": [2, -0.5, 0],
+			"scale": [2, 2, 2]
+		},
+		"head": {
+			"translation": [0, 8.5, -0.5],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"fixed": {
+			"translation": [0.75, 0, 0],
+			"scale": [2, 2, 2]
+		}
+	}
+}

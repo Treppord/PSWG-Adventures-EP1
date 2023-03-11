@@ -1,7 +1,6 @@
 {
     "type": "origins:fire_projectile",
-    "entity_type": "minecraft:arrow",
-    "tag": "{CustomPotionEffects:[{Id:25,Duration:200},{Id:20,Duration:200,Amplifier:11}]}",
+    "entity_type": "pswg-adventures:force_dark",
     "key": {
         "key": "key.origins.primary_active"
     },

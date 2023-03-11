@@ -1,12 +1,15 @@
 {
 	"item.pswg-adventures.wampa_hide": "Wampa Hide",
 	"item.pswg-adventures.beskar_alloy": "Beskar Alloy",
+	"item.pswg-adventures.beskar_alloy_nugget": "Beskar Alloy Nugget",
 	"item.pswg-adventures.beskar_scraps": "Beskar Scraps",
 	"item.pswg-adventures.beskar_lump": "Beskar Lump",
 
 	"item.pswg-adventures.holodrive": "Holodrive",
 	"item.pswg-adventures.trooper_holodrive": "Holodrive",
 	"item.pswg-adventures.imperial_holodrive": "Holodrive",
+
+	"item.pswg-adventures.holocron_1": "Holocron",
 
 
 	"item.pswg-adventures.overworld_holodrive": "Holodrive",
@@ -33,6 +36,15 @@
 	"item.pswg-adventures.ilum_item": "Warpdrive",
 	"item.pswg-adventures.nevarro_item": "Warpdrive",
 	"item.pswg-adventures.warpdrive": "Warpdrive",
+
+
+	"item.pswg-adventures.vader_cape": "Vader Cape",
+	"item.pswg-adventures.mando_cape": "Mando Cape",
+	"item.pswg-adventures.mando_cape_2": "Mando Cape",
+	"item.pswg-adventures.boba_cape": "Mando Cape",
+
+	"item.pswg-adventures.mando_jetpack": "Jetpack",
+	"item.pswg-adventures.boba_jetpack": "Jetpack",
 
 	"item.pswg-adventures.emblem": "Emblem",
 	"item.pswg-adventures.fett_emblem": "Fett Emblem",
@@ -70,6 +82,17 @@
 	"item.pswg-adventures.mando_helmet": "Mandalorian Helmet",
 	"item.pswg-adventures.mando_leggings": "Mandalorian Leggings",
 
+	"item.pswg-adventures.boba_boots": "Mandalorian Boots",
+	"item.pswg-adventures.boba_chestplate": "Mandalorian Chestplate",
+	"item.pswg-adventures.boba_helmet": "Mandalorian Helmet",
+	"item.pswg-adventures.boba_leggings": "Mandalorian Leggings",
+
+	"item.pswg-adventures.jedi_boots": "Jedi Boots",
+	"item.pswg-adventures.jedi_chestplate": "Jedi Chestplate",
+	"item.pswg-adventures.jedi_helmet": "Jedi Helmet",
+	"item.pswg-adventures.jedi_leggings": "Jedi Leggings",
+
+
 	"item.pswg-adventures.vader_boots": "Vader Boots",
 	"item.pswg-adventures.vader_chestplate": "Vader Chestplate",
 	"item.pswg-adventures.vader_helmet": "Vader Helmet",
@@ -104,5 +127,10 @@
 	"gui.pswg-adventures.planet_selection.tatooine": "Tatooine",
 	"gui.pswg-adventures.planet_selection.nevarro": "Nevarro",
 	"gui.pswg-adventures.text.galaxy_far_away": "The Galaxy",
-	"gui.pswg-adventures.text.outer_rims": "Outer Rim"
+	"gui.pswg-adventures.text.outer_rims": "Outer Rim",
+
+
+	
+	"item.pswg-adventures.thermal_detonator": "Thermal Detonator",
+	"entity.pswg-adventures.thermal_detonator": "Thermal Detonator"
 }

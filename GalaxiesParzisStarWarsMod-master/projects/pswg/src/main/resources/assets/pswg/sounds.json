@@ -1,0 +1,209 @@
+{
+	"lightsaber.start.classic": {
+		"sounds": [
+			"pswg:lightsaber/start/classic"
+		]
+	},
+	"lightsaber.stop.classic": {
+		"sounds": [
+			"pswg:lightsaber/stop/classic"
+		]
+	},
+	"lightsaber.idle.classic": {
+		"sounds": [
+			{
+				"name": "pswg:lightsaber/idle/classic",
+				"attenuation_distance": 6
+			}
+		]
+	},
+	"blaster.hiss": {
+		"sounds": [
+			{
+				"name": "pswg:blaster/hiss",
+				"attenuation_distance": 16
+			}
+		]
+	},
+	"blaster.reload": {
+		"sounds": [
+			"pswg:blaster/reload"
+		]
+	},
+	"blaster.dryfire": {
+		"sounds": [
+			"pswg:blaster/dryfire"
+		]
+	},
+	"blaster.stun": {
+		"sounds": [
+			"pswg:blaster/stun"
+		]
+	},
+	"blaster.fire.a280": {
+		"sounds": [
+			"pswg:blaster/fire/a280"
+		]
+	},
+	"blaster.fire.bike": {
+		"sounds": [
+			"pswg:blaster/fire/bike"
+		]
+	},
+	"blaster.fire.bowcaster": {
+		"sounds": [
+			"pswg:blaster/fire/bowcaster"
+		]
+	},
+	"blaster.fire.cycler": {
+		"sounds": [
+			"pswg:blaster/fire/cycler"
+		]
+	},
+	"blaster.fire.dc15": {
+		"sounds": [
+			"pswg:blaster/fire/dc15"
+		]
+	},
+	"blaster.fire.dc17": {
+		"sounds": [
+			"pswg:blaster/fire/dc17"
+		]
+	},
+	"blaster.fire.dh17": {
+		"sounds": [
+			"pswg:blaster/fire/dh17"
+		]
+	},
+	"blaster.fire.dl18": {
+		"sounds": [
+			"pswg:blaster/fire/dl18"
+		]
+	},
+	"blaster.fire.dl44": {
+		"sounds": [
+			"pswg:blaster/fire/dl44"
+		]
+	},
+	"blaster.fire.dlt19d": {
+		"sounds": [
+			"pswg:blaster/fire/dlt19d"
+		]
+	},
+	"blaster.fire.dlt19": {
+		"sounds": [
+			"pswg:blaster/fire/dlt19"
+		]
+	},
+	"blaster.fire.dlt20a": {
+		"sounds": [
+			"pswg:blaster/fire/dlt20a"
+		]
+	},
+	"blaster.fire.e11": {
+		"sounds": [
+			"pswg:blaster/fire/e11"
+		]
+	},
+	"blaster.fire.ee3": {
+		"sounds": [
+			"pswg:blaster/fire/ee3"
+		]
+	},
+	"blaster.fire.eweb": {
+		"sounds": [
+			"pswg:blaster/fire/eweb"
+		]
+	},
+	"blaster.fire.ion": {
+		"sounds": [
+			"pswg:blaster/fire/ion"
+		]
+	},
+	"blaster.fire.rk3": {
+		"sounds": [
+			"pswg:blaster/fire/rk3"
+		]
+	},
+	"blaster.fire.rt97c": {
+		"sounds": [
+			"pswg:blaster/fire/rt97c"
+		]
+	},
+	"blaster.fire.se14c": {
+		"sounds": [
+			"pswg:blaster/fire/se14c"
+		]
+	},
+	"blaster.fire.t21b": {
+		"sounds": [
+			"pswg:blaster/fire/t21b"
+		]
+	},
+	"blaster.fire.t21": {
+		"sounds": [
+			"pswg:blaster/fire/t21"
+		]
+	},
+	"blaster.bypass.primary": {
+		"sounds": [
+			"pswg:blaster/bypass/primary"
+		]
+	},
+	"blaster.bypass.secondary": {
+		"sounds": [
+			"pswg:blaster/bypass/secondary"
+		]
+	},
+	"blaster.bypass.secondary_end": {
+		"sounds": [
+			"pswg:blaster/bypass/secondary_end"
+		]
+	},
+	"blaster.bypass.failed": {
+		"sounds": [
+			"pswg:blaster/bypass/failed"
+		]
+	},
+	"blaster.vent": {
+		"sounds": [
+			"pswg:blaster/vent"
+		]
+	},
+	"blaster.overheat": {
+		"sounds": [
+			"pswg:blaster/overheat"
+		]
+	},
+	"blaster.cooling": {
+		"sounds": [
+			"pswg:blaster/cooling"
+		]
+	},
+	"blaster.recharge": {
+		"sounds": [
+			"pswg:blaster/recharge"
+		]
+	},
+	"ship.blaster.fire.xwingt65b": {
+		"sounds": [
+			{
+				"name": "pswg:ship/xwing/fire",
+				"attenuation_distance": 128
+			}
+		]
+	},
+	"ship.exterior.xwingt65b": {
+		"sounds": [
+			{
+				"name": "pswg:ship/xwing/exterior",
+				"attenuation_distance": 128
+			}
+		]
+	},
+	"door.pneumatic": {
+		"sounds": [
+			"pswg:door/pneumatic"
+		]
+	}
+}

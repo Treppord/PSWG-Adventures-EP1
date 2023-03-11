@@ -1,0 +1,30 @@
+{
+	"item.pswg-addon-test.wampa_hide": "Wampa Hide",
+	"item.pswg-addon-test.beskar_alloy": "Beskar Alloy",
+	"item.pswg-addon-test.beskar_scraps": "Beskar Scraps",
+	"item.pswg-addon-test.beskar_lump": "Beskar Lump",
+
+
+	"item.pswg-addon-test.bronze_credit": "Bronze Credit",
+	"item.pswg-addon-test.silver_credit": "Silver Credit",
+	"item.pswg-addon-test.gold_credit": "Gold Credit",
+
+	"item.pswg-addon-test.emblem": "Emblem",
+	"item.pswg-addon-test.fett_emblem": "Fett Emblem",
+	"item.pswg-addon-test.death_watch_emblem": "Death Watch Emblem",
+	"item.pswg-addon-test.super_commando_emblem": "Super Commando Emblem",
+
+	"block.pswg-addon-test.armor_station": "Armor Station",
+	"block.pswg-addon-test.scrap_metal": "Scrap Metal Block",
+
+
+	"blaster.pswg-addon-test.dc17": "§oBlasTech§r DC-17",
+	"item.pswg-addon-test.phase1_clonetrooper_boots": "Beskar Alloy Boots",
+	"item.pswg-addon-test.phase1_clonetrooper_chestplate": "Beskar Alloy Chestplate",
+	"item.pswg-addon-test.phase1_clonetrooper_helmet": "Beskar Alloy Helmet",
+	"item.pswg-addon-test.phase1_clonetrooper_leggings": "Beskar Alloy Leggings",
+	"item.pswg-addon-test.phase2_clonetrooper_boots": "Pure Beskar Boots",
+	"item.pswg-addon-test.phase2_clonetrooper_chestplate": "Pure Beskar Chestplate",
+	"item.pswg-addon-test.phase2_clonetrooper_helmet": "Pure Beskar Helmet",
+	"item.pswg-addon-test.phase2_clonetrooper_leggings": "Pure Beskar Leggings"
+}

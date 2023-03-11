@@ -1,9 +1,18 @@
 val cloth_config_version: String by project.ext
 val modmenu_version: String by project.ext
 val rei_version: String by project.ext
+val trinkets_version: String by project.ext
+val cca_version: String by project.ext
 
 
 dependencies {
+    // CCA Base
+    "modImplementation"("dev.onyxstudios.cardinal-components-api:cardinal-components-base:${cca_version}")
+    "include"("dev.onyxstudios.cardinal-components-api:cardinal-components-base:${cca_version}")
+    // CCA Entity
+    "modImplementation"("dev.onyxstudios.cardinal-components-api:cardinal-components-entity:${cca_version}")
+    "include"("dev.onyxstudios.cardinal-components-api:cardinal-components-entity:${cca_version}")
+
     "api"(project(":projects:pswg", configuration = "namedElements"))
 
     // Cloth Config
@@ -17,7 +26,9 @@ dependencies {
 
     "modImplementation"("vazkii.patchouli:Patchouli:1.19.3-78")
 
-
+    // Trinkets
+    "modImplementation"("dev.emi:trinkets:${trinkets_version}")
+    "include"("dev.emi:trinkets:${trinkets_version}")
 
 
 

@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-      "layer0": "pswg-adventures:item/vader_cape"
+      "layer0": "pswg-adventures:item/mando_cape"
     }
   }

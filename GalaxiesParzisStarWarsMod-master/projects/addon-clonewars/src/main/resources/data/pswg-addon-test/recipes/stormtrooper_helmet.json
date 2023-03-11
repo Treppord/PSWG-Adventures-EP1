@@ -1,0 +1,14 @@
+{
+  "type": "pswg-addon-test:armor_station",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_helmet"
+    },
+    {
+      "item": "pswg-addon-test:emblem"
+    }
+  ],
+  "output": {
+    "item": "pswg:stormtrooper_helmet"
+  }
+}

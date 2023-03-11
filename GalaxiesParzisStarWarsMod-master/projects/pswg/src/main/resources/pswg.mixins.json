@@ -1,0 +1,52 @@
+{
+	"required": true,
+	"package": "com.parzivail.pswg.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"CactusBlockMixin",
+		"EntityMixin",
+		"EntityTrackerEntryMixin",
+		"FarmlandBlockMixin",
+		"ItemEntityMixin",
+		"ItemStackMixin",
+		"LivingEntityJetpackMixin",
+		"LivingEntityMixin",
+		"PlayerEntityMixin",
+		"ServerPlayerEntityAccessor",
+		"ServerPlayerEntityMixin",
+		"ServerPlayNetworkHandlerMixin"
+	],
+	"client": [
+		"AbstractBlockStateMixin",
+		"AbstractClientPlayerEntityMixin",
+		"ArmorFeatureRendererMixin",
+		"BipedEntityModelMixin",
+		"BufferBuilderStorageAccessor",
+		"CameraMixin",
+		"ClientPlayNetworkHandlerMixin",
+		"ClientRecipeBookMixin",
+		"ClientWorldMixin",
+		"DebugHudMixin",
+		"DimensionEffectsAccessor",
+		"EntityClientMixin",
+		"EntityRenderDispatcherAccessor",
+		"EntityRenderDispatcherMixin",
+		"EntityRenderersMixin",
+		"GameRendererMixin",
+		"HeldItemRendererMixin",
+		"InGameHudMixin",
+		"ItemRendererMixin",
+		"LevelPropertiesMixin",
+		"LivingEntityJetpackMixin",
+		"MinecraftClientAccessor",
+		"MinecraftClientMixin",
+		"ModelPartAccessor",
+		"PlayerEntityClientMixin",
+		"PlayerEntityRendererMixin",
+		"RenderLayersMixin",
+		"WorldRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

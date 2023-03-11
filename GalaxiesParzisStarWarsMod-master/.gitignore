@@ -1,0 +1,55 @@
+# gradle
+
+.gradle/
+build/
+out/
+classes/
+
+# idea
+
+/.idea/*
+!/.idea/codeStyles
+!/.idea/inspectionProfiles
+!/.idea/uiDesigner.xml
+*.iml
+*.ipr
+*.iws
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# fabric
+
+run/
+run_server/
+remappedSrc/
+
+# python
+
+__pycache__/
+*.py[co]
+
+# pswg
+
+releases/
+
+# other stuff
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[tT]humbs.db
+*.sw[po]
+.directory
+*~
+hs_err*.log
+*.blend[0-9]
+*.blend[0-9][0-9]

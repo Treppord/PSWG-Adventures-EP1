@@ -3,8 +3,7 @@
 		"pswg-adventures:forcejump",
         "pswg-adventures:sabertechn",
         "pswg-adventures:fall_immunity",
-        "pswg-adventures:forcefreeze",
-        "pswg-adventures:forcefreeze2"
+        "pswg-adventures:forcemindtrick"
 	],
 	"icon": "pswg:lightsaber",
 	"order": 10,
