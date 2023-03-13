@@ -2,6 +2,7 @@ package com.parzivail.pswg.client.render.armor;
 
 import com.parzivail.pswg.client.loader.NemManager;
 import com.parzivail.pswg.component.SwgEntityComponents;
+import com.parzivail.util.client.render.armor.BipedEntityArmorModel;
 import com.parzivail.util.registry.ArmorItems;
 import net.minecraft.client.model.ModelPart;
 import net.minecraft.client.network.AbstractClientPlayerEntity;

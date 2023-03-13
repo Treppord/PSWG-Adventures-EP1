@@ -2,10 +2,10 @@ package com.parzivail.pswg.client.loader;
 
 import com.google.common.collect.ImmutableList;
 import com.parzivail.pswg.Resources;
-import com.parzivail.pswg.client.render.armor.BipedEntityArmorModel;
 import com.parzivail.pswg.mixin.ModelPartAccessor;
 import com.parzivail.util.client.render.ModelAngleAnimator;
 import com.parzivail.util.client.render.MutableAnimatedModel;
+import com.parzivail.util.client.render.armor.BipedEntityArmorModel;
 import com.parzivail.util.data.KeyedReloadableLoader;
 import net.minecraft.client.model.*;
 import net.minecraft.client.network.AbstractClientPlayerEntity;

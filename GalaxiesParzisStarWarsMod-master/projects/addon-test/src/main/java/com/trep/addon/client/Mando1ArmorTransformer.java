@@ -1,7 +1,8 @@
 package com.trep.addon.client;
 
 import com.parzivail.pswg.client.render.armor.ArmorRenderer;
-import com.parzivail.pswg.client.render.armor.BipedEntityArmorModel;
+import com.parzivail.util.client.render.armor.BipedEntityArmorModel;
+
 import net.minecraft.entity.LivingEntity;
 
 public class Mando1ArmorTransformer implements ArmorRenderer.ArmorRenderTransformer

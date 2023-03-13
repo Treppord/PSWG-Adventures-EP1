@@ -1,6 +1,7 @@
 package com.trep.addon.blocks;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
@@ -22,27 +23,28 @@ public class AdventureBlocks {
 
 
     public static final Block SMITHING_ANVIL = registerBlock("fabricator",
-            new FabricatorBlock(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool().nonOpaque()), ItemGroups.INGREDIENTS);
+            new FabricatorBlock(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool().nonOpaque()), TestAddon.AdventuresBlocksTab);
     public static final Block ARMOR_STATION = registerBlock("galaxy_forge",
-            new ArmorStationBlock(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool().nonOpaque()), ItemGroups.INGREDIENTS);
+            new ArmorStationBlock(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool().nonOpaque()), TestAddon.AdventuresBlocksTab);
 
     public static final Block BLASTER_TABLE = registerBlock("blaster_table",
-            new BlasterTableBlock(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool().nonOpaque()), ItemGroups.INGREDIENTS);
-
-
-    public static final Block NEVARRO_STONE = registerBlock("nevarro_stone",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ItemGroups.INGREDIENTS);
-
-    public static final Block NEVARRO_STONE_SMOOTH = registerBlock("nevarro_stone_smooth",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ItemGroups.INGREDIENTS);
-
-    public static final Block NEVARRO_STONE_BRICK = registerBlock("nevarro_stone_brick",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ItemGroups.INGREDIENTS);
-    public static final Block SCRAP_METAL = registerBlock("scrap_metal",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ItemGroups.INGREDIENTS);
+            new BlasterTableBlock(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool().nonOpaque()), TestAddon.AdventuresBlocksTab);
 
     public static final Block MARKET_STATION = registerBlock("merchant_station",
-            new MarketStationBlock(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool().nonOpaque()), ItemGroups.INGREDIENTS);
+            new MarketStationBlock(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool().nonOpaque()), TestAddon.AdventuresBlocksTab);
+
+    public static final Block NEVARRO_STONE = registerBlock("nevarro_stone",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), TestAddon.AdventuresBlocksTab);
+
+    public static final Block NEVARRO_STONE_SMOOTH = registerBlock("nevarro_stone_smooth",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), TestAddon.AdventuresBlocksTab);
+
+    public static final Block NEVARRO_STONE_BRICK = registerBlock("nevarro_stone_brick",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), TestAddon.AdventuresBlocksTab);
+            
+    public static final Block SCRAP_METAL = registerBlock("scrap_metal",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), TestAddon.AdventuresBlocksTab);
+
 
     private static Block registerBlock(String name, Block block, ItemGroup group, String tooltipKey) {
         registerBlockItem(name, block, group, tooltipKey);
@@ -76,4 +78,5 @@ public class AdventureBlocks {
     public static void registerModBlocks() {
         TestAddon.LOGGER.info("Registering ModBlocks for " + TestAddon.MODID);
     }
+
 }

@@ -23,7 +23,7 @@ public class TestEntities {
 
     public static class Clones
     {
-        public static final EntityType<CloneEntity> Clone = Registry.register(Registries.ENTITY_TYPE, Resources.id("clone"), FabricEntityTypeBuilder
+        public static final EntityType<CloneEntity> Clone = Registry.register(Registries.ENTITY_TYPE, Resources.id("mandalorian"), FabricEntityTypeBuilder
                 .create(SpawnGroup.MISC, CloneEntity::new)
                 .dimensions(EntityDimensions.fixed(1, 2))
                 .build());

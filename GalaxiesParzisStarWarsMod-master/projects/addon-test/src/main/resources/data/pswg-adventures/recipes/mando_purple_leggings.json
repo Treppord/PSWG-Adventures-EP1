@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "pswg-adventures:mando_leggings"
+      },
+      {
+        "item": "minecraft:purple_dye"
+      }
+    ],
+    "result": {
+      "item": "pswg-adventures:mando_purple_leggings"
+    }
+  }

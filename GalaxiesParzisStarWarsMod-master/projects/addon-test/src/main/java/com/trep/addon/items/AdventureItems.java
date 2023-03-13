@@ -25,8 +25,8 @@ public class AdventureItems {
     public static class Armor
     {
 
-        @RegistryName("spawn_clone")
-        public static final Item CloneEgg = new SpawnEggItem(TestEntities.Clones.Clone, 0x1F1733, 0xE1946E, new Item.Settings());
+        @RegistryName("spawn_mandalorian")
+        public static final Item CloneEgg = new SpawnEggItem(TestEntities.Clones.Clone, 0x1F17FF, 0xE4921E, new Item.Settings());
         @RegistryName("beskar_alloy")
         public static final ArmorItems PhaseAClone = new ArmorItems(ArmorMaterials.DIAMOND, new Item.Settings().maxCount(1));
         @RegistryName("beskar_alloy_alternative")
@@ -40,7 +40,7 @@ public class AdventureItems {
         public static final ArmorItems CyanMandalorian = new ArmorItems(ArmorMaterials.DIAMOND, new Item.Settings().maxCount(1));
 
         @RegistryName("vader")
-        public static final ArmorItems VADER = new ArmorItems(ArmorMaterials.DIAMOND, new Item.Settings().maxCount(1));
+        public static final ArmorItems VADER = new ArmorItems(ArmorMaterials.NETHERITE, new Item.Settings().maxCount(1));
 
 
         @RegistryName("bluemando")
@@ -57,6 +57,64 @@ public class AdventureItems {
         @RegistryName("boba")
         public static final ArmorItems Boba = new ArmorItems(ArmorMaterials.DIAMOND, new Item.Settings().maxCount(1)); 
 
+        
+        @RegistryName("jedi_robe")
+        public static final ArmorItems JediRobe = new ArmorItems(ArmorMaterials.CHAIN, new Item.Settings().maxCount(1));
+        @RegistryName("sith_robe")
+        public static final ArmorItems SithRobe = new ArmorItems(ArmorMaterials.CHAIN, new Item.Settings().maxCount(1));
+
+@RegistryName("mando_black")
+public static final ArmorItems Mandalorianblack = new ArmorItems(ArmorMaterials.DIAMOND, new Item.Settings().maxCount(1));
+
+@RegistryName("mando_blue")
+public static final ArmorItems Mandalorianblue = new ArmorItems(ArmorMaterials.DIAMOND, new Item.Settings().maxCount(1));
+
+@RegistryName("mando_brown")
+public static final ArmorItems Mandalorianbrown = new ArmorItems(ArmorMaterials.DIAMOND, new Item.Settings().maxCount(1));
+
+@RegistryName("mando_cyan")
+public static final ArmorItems Mandaloriancyan = new ArmorItems(ArmorMaterials.DIAMOND, new Item.Settings().maxCount(1));
+
+@RegistryName("mando_gray")
+public static final ArmorItems Mandaloriangray = new ArmorItems(ArmorMaterials.DIAMOND, new Item.Settings().maxCount(1));
+
+@RegistryName("mando_green")
+public static final ArmorItems Mandaloriangreen = new ArmorItems(ArmorMaterials.DIAMOND, new Item.Settings().maxCount(1));
+
+@RegistryName("mando_light_blue")
+public static final ArmorItems Mandalorianlight_blue = new ArmorItems(ArmorMaterials.DIAMOND, new Item.Settings().maxCount(1));
+
+@RegistryName("mando_light_gray")
+public static final ArmorItems Mandalorianlight_gray = new ArmorItems(ArmorMaterials.DIAMOND, new Item.Settings().maxCount(1));
+
+@RegistryName("mando_lime")
+public static final ArmorItems Mandalorianlime = new ArmorItems(ArmorMaterials.DIAMOND, new Item.Settings().maxCount(1));
+
+@RegistryName("mando_magenta")
+public static final ArmorItems Mandalorianmagenta = new ArmorItems(ArmorMaterials.DIAMOND, new Item.Settings().maxCount(1));
+
+@RegistryName("mando_orange")
+public static final ArmorItems Mandalorianorange = new ArmorItems(ArmorMaterials.DIAMOND, new Item.Settings().maxCount(1));
+
+@RegistryName("mando_pink")
+public static final ArmorItems Mandalorianpink = new ArmorItems(ArmorMaterials.DIAMOND, new Item.Settings().maxCount(1));
+
+@RegistryName("mando_purple")
+public static final ArmorItems Mandalorianpurple = new ArmorItems(ArmorMaterials.DIAMOND, new Item.Settings().maxCount(1));
+
+@RegistryName("mando_red")
+public static final ArmorItems Mandalorianred = new ArmorItems(ArmorMaterials.DIAMOND, new Item.Settings().maxCount(1));
+
+@RegistryName("mando_white")
+public static final ArmorItems Mandalorianwhite = new ArmorItems(ArmorMaterials.DIAMOND, new Item.Settings().maxCount(1));
+
+@RegistryName("mando_yellow")
+public static final ArmorItems Mandalorianyellow = new ArmorItems(ArmorMaterials.DIAMOND, new Item.Settings().maxCount(1));
+
+
+
+
+
     }
 
     public static final Item CUSTOM_SNOWBALL = registerItem("thermal_detonator",
@@ -65,7 +123,6 @@ public class AdventureItems {
             new ForceDarkItem(new Item.Settings().maxCount(1)));
     public static final Item FORCE_LIGHT = registerItem("force_light",
             new ForceLightItem(new Item.Settings().maxCount(1)));
-
 
 
     public static final Item MANDALORIAN_SPEAR_1 = registerItem("mandalorian_spear_1",
@@ -170,30 +227,53 @@ public class AdventureItems {
         return Registry.register(Registries.ITEM, new Identifier(TestAddon.MODID, name), item);
 
 
-
     }
 
     public static void addItemsToItemGroup(){
-        addToItemGroup(Galaxies.TabItems, WAMPA_HIDE);
-        addToItemGroup(Galaxies.TabItems, HOLODRIVE);
-        addToItemGroup(Galaxies.TabItems, TROOPER_HOLODRIVE);
-        addToItemGroup(Galaxies.TabItems, IMPERIAL_HOLODRIVE);
-        addToItemGroup(Galaxies.TabItems, TATOOINE_ITEM);
+        addToItemGroup(TestAddon.AdventuresTab, HOLODRIVE);
+        addToItemGroup(TestAddon.AdventuresTab, TROOPER_HOLODRIVE);
+        addToItemGroup(TestAddon.AdventuresTab, IMPERIAL_HOLODRIVE);
+        addToItemGroup(TestAddon.AdventuresTab, TATOOINE_HOLODRIVE);
+        addToItemGroup(TestAddon.AdventuresTab, NEVARRO_HOLODRIVE);
+        addToItemGroup(TestAddon.AdventuresTab, HOTH_HOLODRIVE);
+        addToItemGroup(TestAddon.AdventuresTab, OVERWORLD_HOLODRIVE);
+        addToItemGroup(TestAddon.AdventuresTab, DAGOBAH_HOLODRIVE);
 
-        addToItemGroup(Galaxies.TabItems, BESKAR_ALLOY);
-        addToItemGroup(Galaxies.TabItems, BESKAR_LUMP);
-        addToItemGroup(Galaxies.TabItems, BESKAR_SCRAPS);
-        addToItemGroup(Galaxies.TabItems, BRONZE_CREDIT);
-        addToItemGroup(Galaxies.TabItems, SILVER_CREDIT);
-        addToItemGroup(Galaxies.TabItems, GOLD_CREDIT);
-        addToItemGroup(Galaxies.TabItems, EMBLEM);
-        addToItemGroup(Galaxies.TabItems, DEATH_WATCH_EMBLEM);
-        addToItemGroup(Galaxies.TabItems, FETT_EMBLEM);
-        addToItemGroup(Galaxies.TabItems, SUPER_COMMANDO_EMBLEM);
 
-        addToItemGroup(Galaxies.TabItems, MANDALORIAN_SPEAR_1);
-        addToItemGroup(Galaxies.TabItems, MANDALORIAN_SPEAR_2);
-        addToItemGroup(Galaxies.TabItems, MANDALORIAN_SPEAR_3);
+        
+        addToItemGroup(TestAddon.AdventuresTab, WARPDRIVE);
+        addToItemGroup(TestAddon.AdventuresTab, TATOOINE_ITEM);
+        addToItemGroup(TestAddon.AdventuresTab, NEVARRO_ITEM);
+        addToItemGroup(TestAddon.AdventuresTab, HOTH_ITEM);
+        addToItemGroup(TestAddon.AdventuresTab, OVERWORLD_ITEM);
+        addToItemGroup(TestAddon.AdventuresTab, DAGOBAH_ITEM);
+
+        
+        addToItemGroup(TestAddon.AdventuresTab, FORCE_DARK);
+        addToItemGroup(TestAddon.AdventuresTab, FORCE_LIGHT);
+        addToItemGroup(TestAddon.AdventuresTab, CUSTOM_SNOWBALL);
+
+        addToItemGroup(TestAddon.AdventuresTab, BESKAR_ALLOY);
+        addToItemGroup(TestAddon.AdventuresTab, BESKAR_ALLOY_NUGGET);
+        addToItemGroup(TestAddon.AdventuresTab, BESKAR_SCRAPS);
+        addToItemGroup(TestAddon.AdventuresTab, BESKAR_LUMP);
+        addToItemGroup(TestAddon.AdventuresTab, BRONZE_CREDIT);
+        addToItemGroup(TestAddon.AdventuresTab, SILVER_CREDIT);
+        addToItemGroup(TestAddon.AdventuresTab, GOLD_CREDIT);
+
+        addToItemGroup(TestAddon.AdventuresTab, EMBLEM);
+        addToItemGroup(TestAddon.AdventuresTab, DEATH_WATCH_EMBLEM);
+        addToItemGroup(TestAddon.AdventuresTab, FETT_EMBLEM);
+        addToItemGroup(TestAddon.AdventuresTab, SUPER_COMMANDO_EMBLEM);
+
+        addToItemGroup(TestAddon.AdventuresTab, MANDALORIAN_SPEAR_1);
+        addToItemGroup(TestAddon.AdventuresTab, MANDALORIAN_SPEAR_2);
+        addToItemGroup(TestAddon.AdventuresTab, MANDALORIAN_SPEAR_3);
+
+        addToItemGroup(TestAddon.AdventuresTab, WAMPA_HIDE);
+
+        
+
 
 
     }

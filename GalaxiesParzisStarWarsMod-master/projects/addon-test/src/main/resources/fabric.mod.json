@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "pswg-adventures",
-	"version": "0.0.12",
+	"version": "0.0.13.1",
 	"name": "PSWG Addon: Adventures Ep 1",
 	"description": "Now this is podracing.",
 	"authors": [
@@ -17,16 +17,16 @@
 	"environment": "*",
 	"entrypoints": {
 		"pswg-addon": [
-			"com.example.addon.TestAddon"
+			"com.trep.addon.TestAddon"
 		],
 		"pswg-client-addon": [
-			"com.example.addon.TestAddonClient"
+			"com.trep.addon.TestAddonClient"
 		],
 		"fabric-datagen": [
-			"com.example.addon.datagen.TestDataGeneration"
+			"com.trep.addon.datagen.TestDataGeneration"
 		],
 		"rei_client": [
-			"com.example.addon.compat.TestAddonPlugin"
+			"com.trep.addon.compat.TestAddonPlugin"
 		]
 	},
 	"depends": {

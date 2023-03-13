@@ -28,12 +28,16 @@ import com.trep.addon.util.AdventureTags;
 import com.trep.addon.util.PlanetGuiCommandRunner;
 
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
+import net.fabricmc.fabric.impl.itemgroup.FabricItemGroupBuilderImpl;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.entity.EntityDimensions;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -46,6 +50,9 @@ public class TestAddon implements PswgAddon
 	public static final Lumberjack LOG = new Lumberjack(MODID);
 
 	public static final Logger LOGGER = LoggerFactory.getLogger("modid");
+
+	public static final ItemGroup AdventuresTab = FabricItemGroup.builder(new Identifier (TestAddon.MODID, "items")).icon(() -> new ItemStack(AdventureItems.BESKAR_ALLOY)).build();
+	public static final ItemGroup AdventuresBlocksTab = FabricItemGroup.builder(new Identifier (TestAddon.MODID, "blocks")).icon(() -> new ItemStack(AdventureItems.BRONZE_CREDIT)).build();
 
 	public static Item TEST_TRINKET;
 	public static Item TEST_TRINKET_2;

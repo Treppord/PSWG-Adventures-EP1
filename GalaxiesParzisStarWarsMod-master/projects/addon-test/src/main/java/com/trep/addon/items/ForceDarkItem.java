@@ -40,4 +40,6 @@ public class ForceDarkItem extends Item {
  
 		return TypedActionResult.success(itemStack, world.isClient());
 	}
+
+	
 }

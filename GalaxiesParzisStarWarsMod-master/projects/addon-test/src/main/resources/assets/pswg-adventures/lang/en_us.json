@@ -1,4 +1,8 @@
 {
+
+	"itemGroup.pswg-adventures.items": "Items - ADVENTURE",
+	"itemGroup.pswg-adventures.blocks": "Blocks - ADVENTURE",
+
 	"item.pswg-adventures.wampa_hide": "Wampa Hide",
 	"item.pswg-adventures.beskar_alloy": "Beskar Alloy",
 	"item.pswg-adventures.beskar_alloy_nugget": "Beskar Alloy Nugget",
@@ -91,6 +95,16 @@
 	"item.pswg-adventures.jedi_chestplate": "Jedi Chestplate",
 	"item.pswg-adventures.jedi_helmet": "Jedi Helmet",
 	"item.pswg-adventures.jedi_leggings": "Jedi Leggings",
+	
+	"item.pswg-adventures.jedi_robe_boots": "Jedi Robe Boots",
+	"item.pswg-adventures.jedi_robe_chestplate": "Jedi Robe Chestplate",
+	"item.pswg-adventures.jedi_robe_helmet": "Jedi Robe Helmet",
+	"item.pswg-adventures.jedi_robe_leggings": "Jedi Robe Leggings",
+	
+	"item.pswg-adventures.sith_robe_boots": "Sith Robe Boots",
+	"item.pswg-adventures.sith_robe_chestplate": "Sith Robe Chestplate",
+	"item.pswg-adventures.sith_robe_helmet": "Sith Robe Helmet",
+	"item.pswg-adventures.sith_robe_leggings": "Sith Robe Leggings",
 
 
 	"item.pswg-adventures.vader_boots": "Vader Boots",
@@ -132,5 +146,85 @@
 
 	
 	"item.pswg-adventures.thermal_detonator": "Thermal Detonator",
-	"entity.pswg-adventures.thermal_detonator": "Thermal Detonator"
+	"entity.pswg-adventures.thermal_detonator": "Thermal Detonator",
+	
+	"item.pswg-adventures.mando_white_boots": "Mandalorian Boots",
+	"item.pswg-adventures.mando_white_chestplate": "Mandalorian Chestplate",
+	"item.pswg-adventures.mando_white_helmet": "Mandalorian Helmet",
+	"item.pswg-adventures.mando_white_leggings": "Mandalorian Leggings",
+
+	"item.pswg-adventures.mando_light_gray_boots": "Mandalorian Boots",
+	"item.pswg-adventures.mando_light_gray_chestplate": "Mandalorian Chestplate",
+	"item.pswg-adventures.mando_light_gray_helmet": "Mandalorian Helmet",
+	"item.pswg-adventures.mando_light_gray_leggings": "Mandalorian Leggings",
+
+	"item.pswg-adventures.mando_gray_boots": "Mandalorian Boots",
+	"item.pswg-adventures.mando_gray_chestplate": "Mandalorian Chestplate",
+	"item.pswg-adventures.mando_gray_helmet": "Mandalorian Helmet",
+	"item.pswg-adventures.mando_gray_leggings": "Mandalorian Leggings",
+
+	"item.pswg-adventures.mando_black_boots": "Mandalorian Boots",
+	"item.pswg-adventures.mando_black_chestplate": "Mandalorian Chestplate",
+	"item.pswg-adventures.mando_black_helmet": "Mandalorian Helmet",
+	"item.pswg-adventures.mando_black_leggings": "Mandalorian Leggings",
+
+	"item.pswg-adventures.mando_brown_boots": "Mandalorian Boots",
+	"item.pswg-adventures.mando_brown_chestplate": "Mandalorian Chestplate",
+	"item.pswg-adventures.mando_brown_helmet": "Mandalorian Helmet",
+	"item.pswg-adventures.mando_brown_leggings": "Mandalorian Leggings",
+
+	"item.pswg-adventures.mando_red_boots": "Mandalorian Boots",
+	"item.pswg-adventures.mando_red_chestplate": "Mandalorian Chestplate",
+	"item.pswg-adventures.mando_red_helmet": "Mandalorian Helmet",
+	"item.pswg-adventures.mando_red_leggings": "Mandalorian Leggings",
+
+	"item.pswg-adventures.mando_orange_boots": "Mandalorian Boots",
+	"item.pswg-adventures.mando_orange_chestplate": "Mandalorian Chestplate",
+	"item.pswg-adventures.mando_orange_helmet": "Mandalorian Helmet",
+	"item.pswg-adventures.mando_orange_leggings": "Mandalorian Leggings",
+
+	"item.pswg-adventures.mando_yellow_boots": "Mandalorian Boots",
+	"item.pswg-adventures.mando_yellow_chestplate": "Mandalorian Chestplate",
+	"item.pswg-adventures.mando_yellow_helmet": "Mandalorian Helmet",
+	"item.pswg-adventures.mando_yellow_leggings": "Mandalorian Leggings",
+
+	"item.pswg-adventures.mando_lime_boots": "Mandalorian Boots",
+	"item.pswg-adventures.mando_lime_chestplate": "Mandalorian Chestplate",
+	"item.pswg-adventures.mando_lime_helmet": "Mandalorian Helmet",
+	"item.pswg-adventures.mando_lime_leggings": "Mandalorian Leggings",
+
+	"item.pswg-adventures.mando_green_boots": "Mandalorian Boots",
+	"item.pswg-adventures.mando_green_chestplate": "Mandalorian Chestplate",
+	"item.pswg-adventures.mando_green_helmet": "Mandalorian Helmet",
+	"item.pswg-adventures.mando_green_leggings": "Mandalorian Leggings",
+
+	"item.pswg-adventures.mando_cyan_boots": "Mandalorian Boots",
+	"item.pswg-adventures.mando_cyan_chestplate": "Mandalorian Chestplate",
+	"item.pswg-adventures.mando_cyan_helmet": "Mandalorian Helmet",
+	"item.pswg-adventures.mando_cyan_leggings": "Mandalorian Leggings",
+
+	"item.pswg-adventures.mando_light_blue_boots": "Mandalorian Boots",
+	"item.pswg-adventures.mando_light_blue_chestplate": "Mandalorian Chestplate",
+	"item.pswg-adventures.mando_light_blue_helmet": "Mandalorian Helmet",
+	"item.pswg-adventures.mando_light_blue_leggings": "Mandalorian Leggings",
+
+	"item.pswg-adventures.mando_blue_boots": "Mandalorian Boots",
+	"item.pswg-adventures.mando_blue_chestplate": "Mandalorian Chestplate",
+	"item.pswg-adventures.mando_blue_helmet": "Mandalorian Helmet",
+	"item.pswg-adventures.mando_blue_leggings": "Mandalorian Leggings",
+
+	"item.pswg-adventures.mando_purple_boots": "Mandalorian Boots",
+	"item.pswg-adventures.mando_purple_chestplate": "Mandalorian Chestplate",
+	"item.pswg-adventures.mando_purple_helmet": "Mandalorian Helmet",
+	"item.pswg-adventures.mando_purple_leggings": "Mandalorian Leggings",
+
+	"item.pswg-adventures.mando_magenta_boots": "Mandalorian Boots",
+	"item.pswg-adventures.mando_magenta_chestplate": "Mandalorian Chestplate",
+	"item.pswg-adventures.mando_magenta_helmet": "Mandalorian Helmet",
+	"item.pswg-adventures.mando_magenta_leggings": "Mandalorian Leggings",
+
+	"item.pswg-adventures.mando_pink_boots": "Mandalorian Boots",
+	"item.pswg-adventures.mando_pink_chestplate": "Mandalorian Chestplate",
+	"item.pswg-adventures.mando_pink_helmet": "Mandalorian Helmet",
+	"item.pswg-adventures.mando_pink_leggings": "Mandalorian Leggings"
 }
